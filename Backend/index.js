@@ -2,12 +2,10 @@ const express = require("express");
 
 const app = express();
 
-app.listen(3000,() => console.log("Server listening at port 3000"));
+const port = process.env.PORT || 5000;
 
-app.get("/", (req, res) => {
-    res.send("Hello World");
+app.get("/api", (req, res) => {
+    res.send("Hello World from Express");
 });
 
-app.get("/about", (req, res) => {
-    res.send("About route");
-});
+app.listen(port, () => console.log(`Server listening at port ${port}`));
