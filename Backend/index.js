@@ -1,26 +1,27 @@
 const express = require("express");
 
+const bodyParser = require("body-parser");
+
+const cors = require("cors");
+
+const db = require("./database");
+
+const vocabRouter = require("./routes/vocabRouter");
+
 const app = express();
 
 const port = 5000;
 
-app.listen(port, () => console.log(`Server listening at port ${port}`));
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(cors());
+app.use(bodyParser.json())
 
-const mongoose = require("mongoose");
+db.on('connected', function(){console.log("connection, successful")});
 
-require("dotenv").config();
-
-mongoose.connect(
-    process.env.MONGODB_URI, 
-    {
-        useNewUrlParser: true,
-        useUnifiedTopology: true
-    }
-);
-
-mongoose.connection.on('connected', function(){console.log("connection, successful")});
-
-app.get("/api", (req, res) => {
-    res.send("Hello World from Express");
+app.get("/", (req, res) => {
+    res.send("Hello World");
 });
 
+app.use('/api', vocabRouter);
+
+app.listen(port, () => console.log(`Server listening at port ${port}`));
