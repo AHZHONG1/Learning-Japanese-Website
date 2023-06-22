@@ -1,3 +1,4 @@
 import NavBar from './NavBar'
+import VocabNavBar from './VocabNavBar'
 
-export { NavBar }
+export { NavBar, VocabNavBar }

@@ -1,14 +1,14 @@
 import { VocabNavBar } from "../components";
 
-function Vocab() {
+function VocabLearn() {
     return (
         <div>
             <VocabNavBar />
             <div className="Page">
-                <h1>Vocab page</h1>
+                <h1>Vocab Learn page</h1>
             </div>
         </div>
     );
 }
 
-export default Vocab;
+export default VocabLearn;

@@ -1,7 +1,7 @@
 
 
 function Dev() {
-    return (<div>
+    return (<div className="Page">
         <h1>Dev page</h1>
     </div>);
 }
