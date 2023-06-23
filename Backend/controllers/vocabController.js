@@ -34,6 +34,40 @@ createVocab = (req, res) => {
         });
 }
 
+createVocabs = (req, res) => {
+
+    const bodys = req.body;
+
+    if (!bodys) {
+        return res.status(400).json({
+            success: false,
+            error: "You must provide a vocab",
+        });
+    }
+
+    console.log(bodys);
+
+    for (let i = 0; i < bodys.length; i++) {
+        const vocab = new Vocab(bodys[i]);
+
+        if (!vocab) {
+            return res.status(400).json({ success: false, error: err });
+        }
+
+        vocab.save().catch(error => {
+            return res.status(400).json({
+                error,
+                message: "Some vocab not created!",
+            });
+        });
+    }
+
+    return res.status(201).json({
+        success: true,
+        message: "All Vocabs created!",
+    });
+}
+
 updateVocab = async (req, res) => {
 
     const body = req.body;
@@ -103,7 +137,7 @@ getVocabById = async (req, res) => {
 }
 
 getVocabs = async (req, res) => {
-    await Vocab.find({ }).then((vocabs) => {
+    await Vocab.find({}).then((vocabs) => {
         if (!vocabs.length) {
             return res
                 .status(404)
@@ -116,10 +150,25 @@ getVocabs = async (req, res) => {
     });
 }
 
+getVocabsByDifficulty = async (req, res) => {
+    await Vocab.find({ difficulty: req.params.diff }).then((vocabs) => {
+        if (!vocabs.length) {
+            return res
+                .status(404)
+                .json({ success: false, error: "Vocab not found" });
+        }
+        return res.status(200).json({ success: true, data: vocabs });
+    }).catch(err => {
+        return res.status(400).json({ success: false, error: err });
+    });
+}
+
 module.exports = {
     createVocab,
     updateVocab,
     deleteVocab,
     getVocabs,
     getVocabById,
+    getVocabsByDifficulty,
+    createVocabs
 };

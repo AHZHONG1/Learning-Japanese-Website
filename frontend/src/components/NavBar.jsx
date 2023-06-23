@@ -7,9 +7,9 @@ function NavBar() {
     return (
         <Navbar className="bg-body-tertiary">
             <Container>
-                <Link style={{textDecoration: 'none'}} to="/home"><Navbar.Brand>Learning Japanese</Navbar.Brand></Link>
+                <Link style={{textDecoration: 'none'}} to="/"><Navbar.Brand>Learning Japanese</Navbar.Brand></Link>
                 <Nav>
-                    <Nav.Link as={Link} style={{textDecoration: 'none'}} to="/home">Home</Nav.Link>
+                    <Nav.Link as={Link} style={{textDecoration: 'none'}} to="/">Home</Nav.Link>
                     <Nav.Link as={Link} style={{textDecoration: 'none'}} to="/vocab">Vocab</Nav.Link>
                     <Nav.Link as={Link} style={{textDecoration: 'none'}} to="/grammar">Grammar</Nav.Link>
                     <Nav.Link as={Link} style={{textDecoration: 'none'}} to="/dev">Dev</Nav.Link>

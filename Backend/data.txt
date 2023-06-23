@@ -1,602 +1,702 @@
-db.vocabData.insertMany([
+[
     {
-		vocab: "行く",
-		sound: "いく",
-		meaning: "go",
-		POS: "verb"
-	},
-    {
-		vocab: "見る",
-		sound: "みる",
-		meaning: "see, look at",
-		POS: "verb"
+		"vocab": "行く",
+		"sound": "いく",
+		"meaning": "go",
+		"POS": "verb",
+		"difficulty": 1
 	},
     {
-		vocab: "多い",
-		sound: "おおい",
-		meaning: "a lot of, many",
-		POS: "adjective"
+		"vocab": "見る",
+		"sound": "みる",
+		"meaning": "see, look at",
+		"POS": "verb",
+		"difficulty": 1
 	},
     {
-		vocab: "家",
-		sound: "うち",
-		meaning: "home, household",
-		POS: "noun"
+		"vocab": "多い",
+		"sound": "おおい",
+		"meaning": "a lot of, many",
+		"POS": "adjective",
+		"difficulty": 1
 	},
     {
-		vocab: "これ",
-		sound: "これ",
-		meaning: "this, this one",
-		POS: "pronoun"
+		"vocab": "家",
+		"sound": "うち",
+		"meaning": "home, household",
+		"POS": "noun",
+		"difficulty": 1
 	},
     {
-		vocab: "それ",
-		sound: "それ",
-		meaning: "that, that one",
-		POS: "pronoun"
+		"vocab": "これ",
+		"sound": "これ",
+		"meaning": "this, this one",
+		"POS": "pronoun",
+		"difficulty": 1
 	},
     {
-		vocab: "私",
-		sound: "わたし",
-		meaning: "I",
-		POS: "pronoun"
+		"vocab": "それ",
+		"sound": "それ",
+		"meaning": "that, that one",
+		"POS": "pronoun",
+		"difficulty": 1
 	},
     {
-		vocab: "仕事",
-		sound: "しごと",
-		meaning: "work, job",
-		POS: "verbal noun"
+		"vocab": "私",
+		"sound": "わたし",
+		"meaning": "I",
+		"POS": "pronoun",
+		"difficulty": 1
 	},
     {
-		vocab: "いつ",
-		sound: "いつ",
-		meaning: "when",
-		POS: "interrogative"
+		"vocab": "仕事",
+		"sound": "しごと",
+		"meaning": "work, job",
+		"POS": "verbal noun",
+		"difficulty": 1
 	},
     {
-		vocab: "する",
-		sound: "する",
-		meaning: "do, make",
-		POS: "verb"
+		"vocab": "いつ",
+		"sound": "いつ",
+		"meaning": "when",
+		"POS": "interrogative",
+		"difficulty": 1
 	},
     {
-		vocab: "出る",
-		sound: "でる",
-		meaning: "go out, leave",
-		POS: "verb"
+		"vocab": "する",
+		"sound": "する",
+		"meaning": "do, make",
+		"POS": "verb",
+		"difficulty": 1
 	},
     {
-		vocab: "使う",
-		sound: "つかう",
-		meaning: "use, make use of",
-		POS: "verb"
+		"vocab": "出る",
+		"sound": "でる",
+		"meaning": "go out, leave",
+		"POS": "verb",
+		"difficulty": 1
 	},
     {
-		vocab: "所",
-		sound: "ところ",
-		meaning: "place",
-		POS: "noun"
+		"vocab": "使う",
+		"sound": "つかう",
+		"meaning": "use, make use of",
+		"POS": "verb",
+		"difficulty": 1
 	},
     {
-		vocab: "作る",
-		sound: "つくる",
-		meaning: "make, create",
-		POS: "verb"
+		"vocab": "所",
+		"sound": "ところ",
+		"meaning": "place",
+		"POS": "noun",
+		"difficulty": 1
 	},
     {
-		vocab: "思う",
-		sound: "おもう",
-		meaning: "think",
-		POS: "verb"
+		"vocab": "作る",
+		"sound": "つくる",
+		"meaning": "make, create",
+		"POS": "verb",
+		"difficulty": 1
 	},
     {
-		vocab: "持つ",
-		sound: "もつ",
-		meaning: "have, possess",
-		POS: "verb"
+		"vocab": "思う",
+		"sound": "おもう",
+		"meaning": "think",
+		"POS": "verb",
+		"difficulty": 1
 	},
     {
-		vocab: "買う",
-		sound: "かう",
-		meaning: "buy",
-		POS: "verb"
+		"vocab": "持つ",
+		"sound": "もつ",
+		"meaning": "have, possess",
+		"POS": "verb",
+		"difficulty": 1
 	},
+    {
+		"vocab": "買う",
+		"sound": "かう",
+		"meaning": "buy",
+		"POS": "verb",
+		"difficulty": 1
+	},
 	{
-		vocab: "時間",
-		sound: "じかん",
-		meaning: "time, hour",
-		POS: "noun"
+		"vocab": "時間",
+		"sound": "じかん",
+		"meaning": "time, hour",
+		"POS": "noun",
+		"difficulty": 1
 	},
 	{
-		vocab: "知る",
-		sound: "しる",
-		meaning: "know",
-		POS: "verb"
+		"vocab": "知る",
+		"sound": "しる",
+		"meaning": "know",
+		"POS": "verb",
+		"difficulty": 1
 	},
 	{
-		vocab: "同じ",
-		sound: "おなじ",
-		meaning: "same, identical",
-		POS: "adjectival noun"
+		"vocab": "同じ",
+		"sound": "おなじ",
+		"meaning": "same, identical",
+		"POS": "adjectival noun",
+		"difficulty": 1
 	},
 	{
-		vocab: "今",
-		sound: "いま",
-		meaning: "now",
-		POS: "adverb"
+		"vocab": "今",
+		"sound": "いま",
+		"meaning": "now",
+		"POS": "adverb",
+		"difficulty": 1
 	},
 	{
-		vocab: "新しい",
-		sound: "あたらしい",
-		meaning: "new",
-		POS: "adjective"
+		"vocab": "新しい",
+		"sound": "あたらしい",
+		"meaning": "new",
+		"POS": "adjective",
+		"difficulty": 1
 	},
 	{
-		vocab: "なる",
-		sound: "なる",
-		meaning: "become",
-		POS: "verb"
+		"vocab": "なる",
+		"sound": "なる",
+		"meaning": "become",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "まだ",
-		sound: "まだ",
-		meaning: "not yet, still",
-		POS: "adverb"
+		"vocab": "まだ",
+		"sound": "まだ",
+		"meaning": "not yet, still",
+		"POS": "adverb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "あと",
-		sound: "あと",
-		meaning: "after",
-		POS: "noun"
+		"vocab": "あと",
+		"sound": "あと",
+		"meaning": "after",
+		"POS": "noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "聞く",
-		sound: "きく",
-		meaning: "hear, ask, listen",
-		POS: "verb"
+		"vocab": "聞く",
+		"sound": "きく",
+		"meaning": "hear, ask, listen",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "言う",
-		sound: "いう",
-		meaning: "say, tell",
-		POS: "verb"
+		"vocab": "言う",
+		"sound": "いう",
+		"meaning": "say, tell",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "少ない",
-		sound: "すくない",
-		meaning: "few, little",
-		POS: "adjective"
+		"vocab": "少ない",
+		"sound": "すくない",
+		"meaning": "few, little",
+		"POS": "adjective", 
+		"difficulty": 1
 	},
 	{
-		vocab: "高い",
-		sound: "たかい",
-		meaning: "high, tall",
-		POS: "adjective"
+		"vocab": "高い",
+		"sound": "たかい",
+		"meaning": "high, tall",
+		"POS": "adjective", 
+		"difficulty": 1
 	},
 	{
-		vocab: "子供",
-		sound: "こども",
-		meaning: "child",
-		POS: "noun"
+		"vocab": "子供",
+		"sound": "こども",
+		"meaning": "child",
+		"POS": "noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "そう",
-		sound: "そう",
-		meaning: "so, that way",
-		POS: "adverb"
+		"vocab": "そう",
+		"sound": "そう",
+		"meaning": "so, that way",
+		"POS": "adverb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "もう",
-		sound: "もう",
-		meaning: "already, yet",
-		POS: "adverb"
+		"vocab": "もう",
+		"sound": "もう",
+		"meaning": "already, yet",
+		"POS": "adverb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "学生",
-		sound: "がくせい",
-		meaning: "student",
-		POS: "noun"
+		"vocab": "学生",
+		"sound": "がくせい",
+		"meaning": "student",
+		"POS": "noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "熱い",
-		sound: "あつい",
-		meaning: "hot",
-		POS: "adverb"
+		"vocab": "熱い",
+		"sound": "あつい",
+		"meaning": "hot",
+		"POS": "adverb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "どうぞ",
-		sound: "どうぞ",
-		meaning: "please",
-		POS: "adverb"
+		"vocab": "どうぞ",
+		"sound": "どうぞ",
+		"meaning": "please",
+		"POS": "adverb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "午後",
-		sound: "ごご",
-		meaning: "afternoon",
-		POS: "noun"
+		"vocab": "午後",
+		"sound": "ごご",
+		"meaning": "afternoon",
+		"POS": "noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "長い",
-		sound: "ながい",
-		meaning: "long",
-		POS: "adjective"
+		"vocab": "長い",
+		"sound": "ながい",
+		"meaning": "long",
+		"POS": "adjective", 
+		"difficulty": 1
 	},
 	{
-		vocab: "本",
-		sound: "ほん",
-		meaning: "book",
-		POS: "noun"
+		"vocab": "本",
+		"sound": "ほん",
+		"meaning": "book",
+		"POS": "noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "今年",
-		sound: "ことし",
-		meaning: "this year",
-		POS: "noun"
+		"vocab": "今年",
+		"sound": "ことし",
+		"meaning": "this year",
+		"POS": "noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "よく",
-		sound: "よく",
-		meaning: "often, well",
-		POS: "adverb"
+		"vocab": "よく",
+		"sound": "よく",
+		"meaning": "often, well",
+		"POS": "adverb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "彼女",
-		sound: "かのじょ",
-		meaning: "she, girlfriend",
-		POS: "pronoun"
+		"vocab": "彼女",
+		"sound": "かのじょ",
+		"meaning": "she, girlfriend",
+		"POS": "pronoun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "どう",
-		sound: "どう",
-		meaning: "how, what",
-		POS: "interrogative"
+		"vocab": "どう",
+		"sound": "どう",
+		"meaning": "how, what",
+		"POS": "interrogative", 
+		"difficulty": 1
 	},
 	{
-		vocab: "言葉",
-		sound: "ことば",
-		meaning: "word, language",
-		POS: "noun"
+		"vocab": "言葉",
+		"sound": "ことば",
+		"meaning": "word, language",
+		"POS": "noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "顔",
-		sound: "かお",
-		meaning: "face",
-		POS: "noun"
+		"vocab": "顔",
+		"sound": "かお",
+		"meaning": "face",
+		"POS": "noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "終わる",
-		sound: "おわる",
-		meaning: "finish, end",
-		POS: "verb"
+		"vocab": "終わる",
+		"sound": "おわる",
+		"meaning": "finish, end",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "一つ",
-		sound: "ひとつ",
-		meaning: "one",
-		POS: "noun"
+		"vocab": "一つ",
+		"sound": "ひとつ",
+		"meaning": "one",
+		"POS": "noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "あげる",
-		sound: "あげる",
-		meaning: "give, offer",
-		POS: "verb"
+		"vocab": "あげる",
+		"sound": "あげる",
+		"meaning": "give, offer",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "こう",
-		sound: "こう",
-		meaning: "like this, such",
-		POS: "adverb"
+		"vocab": "こう",
+		"sound": "こう",
+		"meaning": "like this, such",
+		"POS": "adverb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "学校",
-		sound: "がっこう",
-		meaning: "school",
-		POS: "noun"
+		"vocab": "学校",
+		"sound": "がっこう",
+		"meaning": "school",
+		"POS": "noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "くれる",
-		sound: "くれる",
-		meaning: "be given",
-		POS: "verb"
+		"vocab": "くれる",
+		"sound": "くれる",
+		"meaning": "be given",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "始める",
-		sound: "はじめる",
-		meaning: "start",
-		POS: "verb"
+		"vocab": "始める",
+		"sound": "はじめる",
+		"meaning": "start",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "起きる",
-		sound: "おきる",
-		meaning: "get up, get out of bed",
-		POS: "verb"
+		"vocab": "起きる",
+		"sound": "おきる",
+		"meaning": "get up, get out of bed",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "春",
-		sound: "はる",
-		meaning: "spring",
-		POS: "noun"
+		"vocab": "春",
+		"sound": "はる",
+		"meaning": "spring",
+		"POS": "noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "午前",
-		sound: "ごぜん",
-		meaning: "morning",
-		POS: "noun"
+		"vocab": "午前",
+		"sound": "ごぜん",
+		"meaning": "morning",
+		"POS": "noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "別",
-		sound: "べつ",
-		meaning: "another, different",
-		POS: "adjectival noun"
+		"vocab": "別",
+		"sound": "べつ",
+		"meaning": "another, different",
+		"POS": "adjectival noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "どこ",
-		sound: "どこ",
-		meaning: "where",
-		POS: "interrogative"
+		"vocab": "どこ",
+		"sound": "どこ",
+		"meaning": "where",
+		"POS": "interrogative", 
+		"difficulty": 1
 	},
 	{
-		vocab: "部屋",
-		sound: "へや",
-		meaning: "room",
-		POS: "noun"
+		"vocab": "部屋",
+		"sound": "へや",
+		"meaning": "room",
+		"POS": "noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "若い",
-		sound: "わかい",
-		meaning: "young",
-		POS: "adjective"
+		"vocab": "若い",
+		"sound": "わかい",
+		"meaning": "young",
+		"POS": "adjective", 
+		"difficulty": 1
 	},
 	{
-		vocab: "車",
-		sound: "くるま",
-		meaning: "car, automobile",
-		POS: "noun"
+		"vocab": "車",
+		"sound": "くるま",
+		"meaning": "car, automobile",
+		"POS": "noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "置く",
-		sound: "おく",
-		meaning: "put, place",
-		POS: "verb"
+		"vocab": "置く",
+		"sound": "おく",
+		"meaning": "put, place",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "住む",
-		sound: "すむ",
-		meaning: "live, reside",
-		POS: "verb"
+		"vocab": "住む",
+		"sound": "すむ",
+		"meaning": "live, reside",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "働く",
-		sound: "はたらく",
-		meaning: "work",
-		POS: "verb"
+		"vocab": "働く",
+		"sound": "はたらく",
+		"meaning": "work",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "難しい",
-		sound: "むずかしい",
-		meaning: "diffcult",
-		POS: "adjective"
+		"vocab": "難しい",
+		"sound": "むずかしい",
+		"meaning": "diffcult",
+		"POS": "adjective", 
+		"difficulty": 1
 	},
 	{
-		vocab: "先生",
-		sound: "せんせい",
-		meaning: "teacher",
-		POS: "noun"
+		"vocab": "先生",
+		"sound": "せんせい",
+		"meaning": "teacher",
+		"POS": "noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "立つ",
-		sound: "たつ",
-		meaning: "stand, rise",
-		POS: "verb"
+		"vocab": "立つ",
+		"sound": "たつ",
+		"meaning": "stand, rise",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "呼ぶ",
-		sound: "よぶ",
-		meaning: "call, name",
-		POS: "verb"
+		"vocab": "呼ぶ",
+		"sound": "よぶ",
+		"meaning": "call, name",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "大学",
-		sound: "だいがく",
-		meaning: "university, college",
-		POS: "noun"
+		"vocab": "大学",
+		"sound": "だいがく",
+		"meaning": "university, college",
+		"POS": "noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "安い",
-		sound: "やすい",
-		meaning: "cheap, inexpensive",
-		POS: "adjective"
+		"vocab": "安い",
+		"sound": "やすい",
+		"meaning": "cheap, inexpensive",
+		"POS": "adjective", 
+		"difficulty": 1
 	},
 	{
-		vocab: "もっと",
-		sound: "もっと",
-		meaning: "more",
-		POS: "adverb"
+		"vocab": "もっと",
+		"sound": "もっと",
+		"meaning": "more",
+		"POS": "adverb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "帰る",
-		sound: "かえる",
-		meaning: "go back home",
-		POS: "verb"
+		"vocab": "帰る",
+		"sound": "かえる",
+		"meaning": "go back home",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "分かる",
-		sound: "わかる",
-		meaning: "understand",
-		POS: "verb"
+		"vocab": "分かる",
+		"sound": "わかる",
+		"meaning": "understand",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "広い",
-		sound: "ひろい",
-		meaning: "wide, big",
-		POS: "adjective"
+		"vocab": "広い",
+		"sound": "ひろい",
+		"meaning": "wide, big",
+		"POS": "adjective", 
+		"difficulty": 1
 	},
 	{
-		vocab: "数",
-		sound: "かず",
-		meaning: "number",
-		POS: "noun"
+		"vocab": "数",
+		"sound": "かず",
+		"meaning": "number",
+		"POS": "noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "近い",
-		sound: "ちかい",
-		meaning: "near, close",
-		POS: "adjective"
+		"vocab": "近い",
+		"sound": "ちかい",
+		"meaning": "near, close",
+		"POS": "adjective", 
+		"difficulty": 1
 	},
 	{
-		vocab: "そこ",
-		sound: "そこ",
-		meaning: "there",
-		POS: "pronoun"
+		"vocab": "そこ",
+		"sound": "そこ",
+		"meaning": "there",
+		"POS": "pronoun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "走る",
-		sound: "はしる",
-		meaning: "run",
-		POS: "verb"
+		"vocab": "走る",
+		"sound": "はしる",
+		"meaning": "run",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "入れる",
-		sound: "いれる",
-		meaning: "put in",
-		POS: "verb"
+		"vocab": "入れる",
+		"sound": "いれる",
+		"meaning": "put in",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "教える",
-		sound: "おしえる",
-		meaning: "teach, tell",
-		POS: "verb"
+		"vocab": "教える",
+		"sound": "おしえる",
+		"meaning": "teach, tell",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "歩く",
-		sound: "あるく",
-		meaning: "walk, go on foot",
-		POS: "verb"
+		"vocab": "歩く",
+		"sound": "あるく",
+		"meaning": "walk, go on foot",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "会う",
-		sound: "あう",
-		meaning: "meet",
-		POS: "verb"
+		"vocab": "会う",
+		"sound": "あう",
+		"meaning": "meet",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "書く",
-		sound: "かく",
-		meaning: "write",
-		POS: "verb"
+		"vocab": "書く",
+		"sound": "かく",
+		"meaning": "write",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "頭",
-		sound: "あたま",
-		meaning: "head",
-		POS: "noun"
+		"vocab": "頭",
+		"sound": "あたま",
+		"meaning": "head",
+		"POS": "noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "売る",
-		sound: "うる",
-		meaning: "sell",
-		POS: "verb"
+		"vocab": "売る",
+		"sound": "うる",
+		"meaning": "sell",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "大好き",
-		sound: "だいすき",
-		meaning: "like sth a lot",
-		POS: "adjectival noun"
+		"vocab": "大好き",
+		"sound": "だいすき",
+		"meaning": "like sth a lot",
+		"POS": "adjectival noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "体",
-		sound: "からだ",
-		meaning: "body, physique, physical condition",
-		POS: "noun"
+		"vocab": "体",
+		"sound": "からだ",
+		"meaning": "body, physique, physical condition",
+		"POS": "noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "直ぐ",
-		sound: "すぐ",
-		meaning: "at once, soon",
-		POS: "adverb"
+		"vocab": "直ぐ",
+		"sound": "すぐ",
+		"meaning": "at once, soon",
+		"POS": "adverb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "飛ぶ",
-		sound: "とぶ",
-		meaning: "fly",
-		POS: "verb"
+		"vocab": "飛ぶ",
+		"sound": "とぶ",
+		"meaning": "fly",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "とても",
-		sound: "とても",
-		meaning: "very",
-		POS: "adverb"
+		"vocab": "とても",
+		"sound": "とても",
+		"meaning": "very",
+		"POS": "adverb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "誰",
-		sound: "だれ",
-		meaning: "who",
-		POS: "interrogative"
+		"vocab": "誰",
+		"sound": "だれ",
+		"meaning": "who",
+		"POS": "interrogative", 
+		"difficulty": 1
 	},
 	{
-		vocab: "好き",
-		sound: "すき",
-		meaning: "favorite, liked",
-		POS: "adjectival noun"
+		"vocab": "好き",
+		"sound": "すき",
+		"meaning": "favorite, liked",
+		"POS": "adjectival noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "読む",
-		sound: "よむ",
-		meaning: "read",
-		POS: "verb"
+		"vocab": "読む",
+		"sound": "よむ",
+		"meaning": "read",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "次",
-		sound: "つぎ",
-		meaning: "next",
-		POS: "noun"
+		"vocab": "次",
+		"sound": "つぎ",
+		"meaning": "next",
+		"POS": "noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "あなた",
-		sound: "あなた",
-		meaning: "you",
-		POS: "pronoun"
+		"vocab": "あなた",
+		"sound": "あなた",
+		"meaning": "you",
+		"POS": "pronoun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "飲む",
-		sound: "のむ",
-		meaning: "drink",
-		POS: "verb"
+		"vocab": "飲む",
+		"sound": "のむ",
+		"meaning": "drink",
+		"POS": "verb", 
+		"difficulty": 1
 	},
 	{
-		vocab: "古い",
-		sound: "ふるい",
-		meaning: "old",
-		POS: "adjective"
+		"vocab": "古い",
+		"sound": "ふるい",
+		"meaning": "old",
+		"POS": "adjective", 
+		"difficulty": 1
 	},
 	{
-		vocab: "質問",
-		sound: "しつもん",
-		meaning: "question",
-		POS: "verbal noun"
+		"vocab": "質問",
+		"sound": "しつもん",
+		"meaning": "question",
+		"POS": "verbal noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "今日",
-		sound: "きょう",
-		meaning: "today",
-		POS: "noun"
+		"vocab": "今日",
+		"sound": "きょう",
+		"meaning": "today",
+		"POS": "noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "友達",
-		sound: "ともだち",
-		meaning: "friend, companion",
-		POS: "noun"
+		"vocab": "友達",
+		"sound": "ともだち",
+		"meaning": "friend, companion",
+		"POS": "noun", 
+		"difficulty": 1
 	},
 	{
-		vocab: "早い",
-		sound: "はやい",
-		meaning: "early",
-		POS: "adjective"
+		"vocab": "早い",
+		"sound": "はやい",
+		"meaning": "early",
+		"POS": "adjective", 
+		"difficulty": 1
 	},
 	{
-		vocab: "どれ",
-		sound: "どれ",
-		meaning: "what, which",
-		POS: "interrogative"
+		"vocab": "どれ",
+		"sound": "どれ",
+		"meaning": "what, which",
+		"POS": "interrogative", 
+		"difficulty": 1
 	}
-])
+]

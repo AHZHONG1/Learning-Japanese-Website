@@ -1,14 +1,14 @@
 import { DevNavBar } from "../components";
 
-function Dev() {
+function DevAdd() {
     return (
         <div>
             <DevNavBar />
             <div className="Page">
-                <h1>Dev page</h1>
+                <h1>Dev Add page</h1>
             </div>
         </div>
     );
 }
 
-export default Dev;
+export default DevAdd;
