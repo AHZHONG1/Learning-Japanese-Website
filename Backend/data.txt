@@ -436,7 +436,7 @@
 	{
 		"vocab": "難しい",
 		"sound": "むずかしい",
-		"meaning": "diffcult",
+		"meaning": "difficult",
 		"POS": "adjective", 
 		"difficulty": 1
 	},
