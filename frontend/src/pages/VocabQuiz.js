@@ -1,11 +1,12 @@
 import { VocabNavBar, VocabLearnPagination } from "../components";
 import { useState, useEffect } from "react";
 import Table from 'react-bootstrap/Table';
+import { Link } from 'react-router-dom';
 
 function VocabQuiz() {
 
     const [data, setData] = useState(null);
-    const [arr, setArr] = useState(null);
+    const [arr, setArr] = useState([]);
 
     const [bStart, setBStart] = useState(false);
 
@@ -13,14 +14,12 @@ function VocabQuiz() {
     const [bSound, setBSound] = useState(false);
     const [bMeaning, setBMeaning] = useState(false);
 
-    var arr1 = [];
-
     function shuffle() {
-        for (let i = arr1.length - 1; i > 0; i--) {
+        for (let i = arr.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
-            const temp = arr1[i];
-            arr1[i] = arr1[j];
-            arr1[j] = temp;
+            const temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
         }
     }
 
@@ -72,34 +71,26 @@ function VocabQuiz() {
         }
 
         data && data.data.map((value, index) => (
-            arr1.push(value)
+            arr.push(value)
         ))
 
         shuffle()
-
-        setArr(arr1)
-        console.log(arr1)
         setBStart(true);
         return true;
     };
 
     function checkAnswer() {
-        if (arr.length === 0) {
-            return
-        }
+        console.log("Start")
+        console.log(arr)
         if (bVocab) {
             if (document.getElementById("textVocab").value !== arr[0].vocab) {
                 document.getElementById("textVocab").value = ""
                 alert(`The answer is ${arr[0].vocab} || ${arr[0].sound} || ${arr[0].meaning}`)
-                arr.map(value => (
-                    arr1.push(value)
-                ))
-                arr1.push(arr[0])
-                arr1.push(arr[0])
-                arr1.shift()
+                arr.push(arr[0])
+                arr.push(arr[0])
+                arr.shift()
                 shuffle()
-                setArr(arr1)
-                console.log(arr)
+                setArr(current => [...current])
                 return;
             }
         }
@@ -107,15 +98,11 @@ function VocabQuiz() {
             if (document.getElementById("textSound").value !== arr[0].sound) {
                 document.getElementById("textSound").value = ""
                 alert(`The answer is ${arr[0].vocab} || ${arr[0].sound} || ${arr[0].meaning}`)
-                arr.map(value => (
-                    arr1.push(value)
-                ))
-                arr1.push(arr[0])
-                arr1.push(arr[0])
-                arr1.shift()
+                arr.push(arr[0])
+                arr.push(arr[0])
+                arr.shift()
                 shuffle()
-                setArr(arr1)
-                console.log(arr)
+                setArr(current => [...current])
                 return;
             }
         }
@@ -125,40 +112,34 @@ function VocabQuiz() {
                 console.log(strs[i])
                 if (document.getElementById("textMeaning").value === strs[i]) {
                     document.getElementById("textMeaning").value = ""
-                    alert(`You are correct`)
-                    arr.map(value => (
-                        arr1.push(value)
-                    ))
-                    arr1.shift()
+                    arr.shift()
+                    if (arr.length === 0) {
+                        setBStart(false)
+                        return;
+                    }
                     shuffle()
-                    setArr(arr1)
-                    console.log(arr)
+                    setArr(current => [...current])
                     return;
                 }
             }
             document.getElementById("textMeaning").value = ""
             alert(`The answer is ${arr[0].vocab} || ${arr[0].sound} || ${arr[0].meaning}`)
-            arr.map(value => (
-                arr1.push(value)
-            ))
-            arr1.push(arr[0])
-            arr1.push(arr[0])
-            arr1.shift()
+            arr.push(arr[0])
+            arr.push(arr[0])
+            arr.shift()
             shuffle()
-            setArr(arr1)
-            console.log(arr)
+            setArr(current => [...current])
             return;
         }
         document.getElementById("textVocab").value = ""
         document.getElementById("textSound").value = ""
-        alert(`You are correct`)
-        arr.map(value => (
-            arr1.push(value)
-        ))
-        arr1.shift()
+        arr.shift()
+        if (arr.length === 0) {
+            setBStart(false)
+            return;
+        }
         shuffle()
-        setArr(arr1)
-        console.log(arr)
+        setArr(current => [...current])
     }
 
     useEffect(() => {
@@ -228,9 +209,8 @@ function VocabQuiz() {
                             </tbody>
                         </Table>
                         <button id="submit" className="btn btn-primary" onClick={checkAnswer}>Submit</button>
-                        <button className="btn btn-primary" onClick={() => {
-                            setBStart(false);
-                        }}>Return</button>
+                        <Link to={"/vocab"}><button className="btn btn-primary">Return</button></Link>
+                        
                     </div>
                 }
             </div>
