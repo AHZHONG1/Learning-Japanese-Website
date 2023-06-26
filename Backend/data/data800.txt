@@ -1,0 +1,702 @@
+[
+    {
+        "vocab": "うまい",
+        "sound": "うまい",
+        "meaning": "delicious, tasty (used by male)",
+        "POS": "adjective",
+        "difficulty": 1
+    },
+    {
+        "vocab": "思い出す",
+        "sound": "おもいだす",
+        "meaning": "recollect, recall",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "聞こえる",
+        "sound": "きこえる",
+        "meaning": "hear, be heard",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "借りる",
+        "sound": "かりる",
+        "meaning": "borrow",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "返す",
+        "sound": "かえす",
+        "meaning": "return, repay",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "受け取る",
+        "sound": "うけとる",
+        "meaning": "receive, get",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "捨てる",
+        "sound": "すてる",
+        "meaning": "discard, abandon",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "一緒",
+        "sound": "いっしょ",
+        "meaning": "together, same (colloquial)",
+        "POS": "verbal noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "遊び",
+        "sound": "あそび",
+        "meaning": "game, amusement",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "移す",
+        "sound": "うつす",
+        "meaning": "move, transfer",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "大きさ",
+        "sound": "おおきさ",
+        "meaning": "size, dimension",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "考え",
+        "sound": "かんがえ",
+        "meaning": "thought, idea",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "空港",
+        "sound": "くうこう",
+        "meaning": "airport (for public transportation)",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "出発",
+        "sound": "しゅっぱつ",
+        "meaning": "departure, starting",
+        "POS": "verbal noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "地図",
+        "sound": "ちず",
+        "meaning": "map, atlas",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "運転",
+        "sound": "うんてん",
+        "meaning": "drive",
+        "POS": "verbal noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "降りる",
+        "sound": "おりる",
+        "meaning": "get off, land",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "ガス",
+        "sound": "ガス",
+        "meaning": "gas (loan word)",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "必ず",
+        "sound": "かならず",
+        "meaning": "without exception, always",
+        "POS": "adverb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "カメラ",
+        "sound": "カメラ",
+        "meaning": "camera",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "通う",
+        "sound": "かよう",
+        "meaning": "go to and from, frequent a place",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "急に",
+        "sound": "きゅうに",
+        "meaning": "suddenly, unexpectedly",
+        "POS": "adverb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "サラリーマン",
+        "sound": "サラリーマン",
+        "meaning": "salaried worker",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "給料",
+        "sound": "きゅうりょう",
+        "meaning": "salary, pay",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "曲",
+        "sound": "きょく",
+        "meaning": "piece of music",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "切れる",
+        "sound": "きれる",
+        "meaning": "cut well, be sharp",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "正しい",
+        "sound": "ただしい",
+        "meaning": "correct, righteous",
+        "POS": "adjective",
+        "difficulty": 1
+    },
+    {
+        "vocab": "苦しい",
+        "sound": "くるしい",
+        "meaning": "painful, agonizing",
+        "POS": "adjective",
+        "difficulty": 1
+    },
+    {
+        "vocab": "細かい",
+        "sound": "こまかい",
+        "meaning": "minute, fine",
+        "POS": "adjective",
+        "difficulty": 1
+    },
+    {
+        "vocab": "静か",
+        "sound": "しずか",
+        "meaning": "quiet",
+        "POS": "adjectival noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "健康",
+        "sound": "けんこう",
+        "meaning": "health",
+        "POS": "adjectival noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "ゴルフ",
+        "sound": "ゴルフ",
+        "meaning": "golf",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "コース",
+        "sound": "コース",
+        "meaning": "course, route",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "頼む",
+        "sound": "たのむ",
+        "meaning": "order, ask for",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "困る",
+        "sound": "こまる",
+        "meaning": "be in trouble, not know what to do",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "ずっと",
+        "sound": "ずっと",
+        "meaning": "all the time, all through",
+        "POS": "adverb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "例えば",
+        "sound": "たとえば",
+        "meaning": "for example",
+        "POS": "adverb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "つもり",
+        "sound": "つもり",
+        "meaning": "intention, purpose",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "しばらく",
+        "sound": "しばらく",
+        "meaning": "a little while, a while",
+        "POS": "adverb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "紹介",
+        "sound": "しょうかい",
+        "meaning": "introduction",
+        "POS": "verbal noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "小学校",
+        "sound": "しょうがっこう",
+        "meaning": "elementary school",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "公園",
+        "sound": "こうえん",
+        "meaning": "park, public garden",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "中学",
+        "sound": "ちゅうがく",
+        "meaning": "junior high",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "成績",
+        "sound": "せいせき",
+        "meaning": "results, grade",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "教科書",
+        "sound": "きょうかしょ",
+        "meaning": "textbook, schoolbook",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "席",
+        "sound": "せき",
+        "meaning": "seat, one's place",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "教室",
+        "sound": "きょうしつ",
+        "meaning": "classroom, class",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "教師",
+        "sound": "きょうし",
+        "meaning": "teacher, instructor (formal)",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "試験",
+        "sound": "しけん",
+        "meaning": "exam",
+        "POS": "verbal noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "合格",
+        "sound": "ごうかく",
+        "meaning": "passing an examination",
+        "POS": "verbal noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "数学",
+        "sound": "すうがく",
+        "meaning": "mathematics",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "数字",
+        "sound": "すうじ",
+        "meaning": "numeric characters, number",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "音楽",
+        "sound": "おんがく",
+        "meaning": "music",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "食事",
+        "sound": "しょくじ",
+        "meaning": "meal, food",
+        "POS": "verbal noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "壁",
+        "sound": "かべ",
+        "meaning": "wall, partition",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "信じる",
+        "sound": "しんじる",
+        "meaning": "believe, trust",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "育てる",
+        "sound": "そだてる",
+        "meaning": "bring up, raise",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "倒れる",
+        "sound": "たおれる",
+        "meaning": "fall over",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "落とす",
+        "sound": "おとす",
+        "meaning": "drop",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "代わる",
+        "sound": "かわる",
+        "meaning": "substitute, be substituted for",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "タクシー",
+        "sound": "タクシー",
+        "meaning": "taxi",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "確か",
+        "sound": "たしか",
+        "meaning": "for sure, for certain",
+        "POS": "adjectival noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "立てる",
+        "sound": "たてる",
+        "meaning": "stand, set up",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "中学生",
+        "sound": "ちゅうがくせい",
+        "meaning": "junior high school student",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "売れる",
+        "sound": "うれる",
+        "meaning": "sell, be in demand",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "着く",
+        "sound": "つく",
+        "meaning": "arrive at, reach",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "決まる",
+        "sound": "きまる",
+        "meaning": "be decided",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "飾る",
+        "sound": "かざる",
+        "meaning": "decorate",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "殺す",
+        "sound": "ころす",
+        "meaning": "kill",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "下げる",
+        "sound": "さげる",
+        "meaning": "lower, turn down",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "贈る",
+        "sound": "おくる",
+        "meaning": "offer, give",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "訪ねる",
+        "sound": "たずねる",
+        "meaning": "visit, go to see",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "打つ",
+        "sound": "うつ",
+        "meaning": "hit, strike",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "相談",
+        "sound": "そうだん",
+        "meaning": "consultation, advice",
+        "POS": "verbal noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "玄関",
+        "sound": "げんかん",
+        "meaning": "entrance, front door",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "兄弟",
+        "sound": "きょうだい",
+        "meaning": "sibling",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "長男",
+        "sound": "ちょうなん",
+        "meaning": "eldest son",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "高さ",
+        "sound": "たかさ",
+        "meaning": "height",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "用",
+        "sound": "よう",
+        "meaning": "things to do",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "時代",
+        "sound": "じだい",
+        "meaning": "age, era",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "位置",
+        "sound": "いち",
+        "meaning": "position, location",
+        "POS": "verbal noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "季節",
+        "sound": "きせつ",
+        "meaning": "season",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "穴",
+        "sound": "あな",
+        "meaning": "hole",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "裏",
+        "sound": "うら",
+        "meaning": "the back, the reverse side",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "島",
+        "sound": "しま",
+        "meaning": "island (Japanese origin)",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "海岸",
+        "sound": "かいがん",
+        "meaning": "seashore, coast",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "ガラス",
+        "sound": "ガラス",
+        "meaning": "glass (material)",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "自然",
+        "sound": "しぜん",
+        "meaning": "natural",
+        "POS": "adjectival noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "風",
+        "sound": "かぜ",
+        "meaning": "wind",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "科学",
+        "sound": "かがく",
+        "meaning": "science",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "太陽",
+        "sound": "たいよう",
+        "meaning": "sun",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "台風",
+        "sound": "たいふう",
+        "meaning": "typhoon",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "北",
+        "sound": "きた",
+        "meaning": "north",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "馬",
+        "sound": "うま",
+        "meaning": "horse",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "牛肉",
+        "sound": "ぎゅうにく",
+        "meaning": "beef",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "雑誌",
+        "sound": "ざっし",
+        "meaning": "magazine, journal",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "小説",
+        "sound": "しょうせつ",
+        "meaning": "novel",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "大使館",
+        "sound": "たいしかん",
+        "meaning": "embassy",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "故障",
+        "sound": "こしょう",
+        "meaning": "malfunction, breakdown",
+        "POS": "verbal noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "温度",
+        "sound": "おんど",
+        "meaning": "temperature",
+        "POS": "noun",
+        "difficulty": 1
+    }
+]

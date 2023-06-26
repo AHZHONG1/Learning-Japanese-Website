@@ -1,0 +1,702 @@
+[
+    {
+        "vocab": "氏名",
+        "sound": "しめい",
+        "meaning": "full name",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "今夜",
+        "sound": "こんや",
+        "meaning": "tonight, this evening",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "夜中",
+        "sound": "よなか",
+        "meaning": "midnight",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "来週",
+        "sound": "らいしゅう",
+        "meaning": "next week",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "誰か",
+        "sound": "だれか",
+        "meaning": "someone",
+        "POS": "pronoun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "何",
+        "sound": "なん",
+        "meaning": "what, (used with t, d, n consonants and counters)",
+        "POS": "interrogative",
+        "difficulty": 1
+    },
+    {
+        "vocab": "今朝",
+        "sound": "けさ",
+        "meaning": "this morning",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "寿司",
+        "sound": "すし",
+        "meaning": "sushi",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "履く",
+        "sound": "はく",
+        "meaning": "put on sth, (shoes), wear sth, (pants, skirt)",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "おじさん",
+        "sound": "おじさん",
+        "meaning": "uncle",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "おばさん",
+        "sound": "おばさん",
+        "meaning": "aunt",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "お祖母さん",
+        "sound": "おばあさん",
+        "meaning": "grandmother, elderly woman",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "いとこ",
+        "sound": "いとこ",
+        "meaning": "cousin",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "辞書",
+        "sound": "じしょ",
+        "meaning": "dictionary",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "朝ご飯",
+        "sound": "あさごはん",
+        "meaning": "breakfast",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "白",
+        "sound": "しろ",
+        "meaning": "white color",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "どっち",
+        "sound": "どっち",
+        "meaning": "which (casual)",
+        "POS": "interrogative",
+        "difficulty": 1
+    },
+    {
+        "vocab": "そっち",
+        "sound": "そっち",
+        "meaning": "there (casual)",
+        "POS": "pronoun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "明日",
+        "sound": "あした",
+        "meaning": "tomorrow",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "明後日",
+        "sound": "あさって",
+        "meaning": "day after tomorrow",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "一昨日",
+        "sound": "おととい",
+        "meaning": "the day before yesterday",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "庭",
+        "sound": "にわ",
+        "meaning": "garden, yard",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "左側",
+        "sound": "ひだりがわ",
+        "meaning": "left side",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "右側",
+        "sound": "みぎがわ",
+        "meaning": "right side",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "指",
+        "sound": "ゆび",
+        "meaning": "finger, toe",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "眼鏡",
+        "sound": "めがね",
+        "meaning": "glasses",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "鞄",
+        "sound": "かばん",
+        "meaning": "bag, handbag",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "あっち",
+        "sound": "あっち",
+        "meaning": "other side (casual), over there (casual)",
+        "POS": "pronoun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "大人しい",
+        "sound": "おとなしい",
+        "meaning": "gentle, quiet",
+        "POS": "adjective",
+        "difficulty": 1
+    },
+    {
+        "vocab": "下手",
+        "sound": "へた",
+        "meaning": "bad at, unskilled",
+        "POS": "adjectival noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "厳しい",
+        "sound": "きびしい",
+        "meaning": "strict, severe",
+        "POS": "adjective",
+        "difficulty": 1
+    },
+    {
+        "vocab": "一人で",
+        "sound": "ひとりで",
+        "meaning": "by oneself, alone",
+        "POS": "adverb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "答え",
+        "sound": "こたえ",
+        "meaning": "answer, solution",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "この頃",
+        "sound": "このごろ",
+        "meaning": "these days, recently",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "残念",
+        "sound": "ざんねん",
+        "meaning": "regretful, disappointing",
+        "POS": "adjectival noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "仕舞う",
+        "sound": "しまう",
+        "meaning": "put away, put in",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "心配",
+        "sound": "しんぱい",
+        "meaning": "anxiety, worry",
+        "POS": "verbal noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "外",
+        "sound": "そと",
+        "meaning": "outside, open air",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "大切",
+        "sound": "たいせつ",
+        "meaning": "important, valuable",
+        "POS": "adjectival noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "ちょうど",
+        "sound": "ちょうど",
+        "meaning": "just, exactly",
+        "POS": "adverb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "助ける",
+        "sound": "たすける",
+        "meaning": "help, save",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "勤める",
+        "sound": "つとめる",
+        "meaning": "serve, hold a job",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "連れていく",
+        "sound": "つれていく",
+        "meaning": "take along, bring along (a person)",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "丈夫",
+        "sound": "じょうぶ",
+        "meaning": "healthy, sturdy",
+        "POS": "adjectival noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "賑やか",
+        "sound": "にぎやか",
+        "meaning": "lively, exciting",
+        "POS": "adjectival noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "眠い",
+        "sound": "ねむい",
+        "meaning": "sleepy",
+        "POS": "adjective",
+        "difficulty": 1
+    },
+    {
+        "vocab": "山",
+        "sound": "やま",
+        "meaning": "mountain",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "橋",
+        "sound": "はし",
+        "meaning": "bridge",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "止まる",
+        "sound": "とまる",
+        "meaning": "come to a stop, cease",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "降る",
+        "sound": "ふる",
+        "meaning": "fall, come down, (rain, snow, etc.)",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "本当",
+        "sound": "ほんとう",
+        "meaning": "reality, genuine",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "町",
+        "sound": "まち",
+        "meaning": "town",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "お菓子",
+        "sound": "おかし",
+        "meaning": "sweets, snacks",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "緩い",
+        "sound": "ゆるい",
+        "meaning": "slack, loose",
+        "POS": "adjective",
+        "difficulty": 1
+    },
+    {
+        "vocab": "良い",
+        "sound": "よい",
+        "meaning": "good (formal), good (written form)",
+        "POS": "adjective",
+        "difficulty": 1
+    },
+    {
+        "vocab": "ようこそ",
+        "sound": "ようこそ",
+        "meaning": "welcome (greeting)",
+        "POS": "adverb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "お土産",
+        "sound": "おみやげ",
+        "meaning": "souvenir (polite)",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "両親",
+        "sound": "りょうしん",
+        "meaning": "parents",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "ウェーター",
+        "sound": "ウェーター",
+        "meaning": "waiter",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "ウェートレス",
+        "sound": "ウェートレス",
+        "meaning": "waitress",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "絶対に",
+        "sound": "ぜったいに",
+        "meaning": "absolutely, definitely",
+        "POS": "adverb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "ごちそう",
+        "sound": "ごちそう",
+        "meaning": "feast, treat",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "フォーク",
+        "sound": "フォーク",
+        "meaning": "fork",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "スプーン",
+        "sound": "スプーン",
+        "meaning": "spoon",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "瓶",
+        "sound": "びん",
+        "meaning": "bottle",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "付く",
+        "sound": "つく",
+        "meaning": "be on, be switched on",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "醤油",
+        "sound": "しょうゆ",
+        "meaning": "soy sauce",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "茶碗",
+        "sound": "ちゃわん",
+        "meaning": "rice bowl",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "決める",
+        "sound": "きめる",
+        "meaning": "decide, agree upon",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "感じる",
+        "sound": "かんじる",
+        "meaning": "feel, sense",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "生きる",
+        "sound": "いきる",
+        "meaning": "live (one's life)",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "動かす",
+        "sound": "うごかす",
+        "meaning": "move sth",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "壊れる",
+        "sound": "こわれる",
+        "meaning": "break, break down",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "復習",
+        "sound": "ふくしゅう",
+        "meaning": "review",
+        "POS": "verbal noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "眉",
+        "sound": "まゆ",
+        "meaning": "eyebrow",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "客",
+        "sound": "きゃく",
+        "meaning": "visitor, customer",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "机",
+        "sound": "つくえ",
+        "meaning": "desk",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "風呂",
+        "sound": "ふろ",
+        "meaning": "bath",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "湯",
+        "sound": "ゆ",
+        "meaning": "hot water",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "ぬるい",
+        "sound": "ぬるい",
+        "meaning": "tepid, lukewarm",
+        "POS": "adjective",
+        "difficulty": 1
+    },
+    {
+        "vocab": "風邪薬",
+        "sound": "かぜぐすり",
+        "meaning": "cold medicine",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "靴下",
+        "sound": "くつした",
+        "meaning": "socks",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "たばこ",
+        "sound": "たばこ",
+        "meaning": "tobacco, cigarette",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "アイスコーヒー",
+        "sound": "アイスコーヒー",
+        "meaning": "iced coffee",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "天ぷら",
+        "sound": "てんぷら",
+        "meaning": "Japanese deep-fried food",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "肉",
+        "sound": "にく",
+        "meaning": "flesh, meat",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "昨夜",
+        "sound": "ゆうべ",
+        "meaning": "last night, last evening",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "流行る",
+        "sound": "はやる",
+        "meaning": "be in fashion, be popular",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "連れてくる",
+        "sound": "つれてくる",
+        "meaning": "bring sb",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "方",
+        "sound": "かた",
+        "meaning": "person (polite)",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "零",
+        "sound": "れい",
+        "meaning": "zero",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "雲",
+        "sound": "くも",
+        "meaning": "cloud",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "空",
+        "sound": "そら",
+        "meaning": "sky",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "人気",
+        "sound": "にんき",
+        "meaning": "popularity",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "兄さん",
+        "sound": "にいさん",
+        "meaning": "my older brother (polite)",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "姉さん",
+        "sound": "ねえさん",
+        "meaning": "my older sister (polite)",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "平成",
+        "sound": "へいせい",
+        "meaning": "Heisei era",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "毎月",
+        "sound": "まいつき",
+        "meaning": "every month",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "半日",
+        "sound": "はんにち",
+        "meaning": "half a day",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "半月",
+        "sound": "はんつき",
+        "meaning": "half a month",
+        "POS": "noun",
+        "difficulty": 1
+    }
+]

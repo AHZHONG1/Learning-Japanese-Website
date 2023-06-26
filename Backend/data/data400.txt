@@ -1,0 +1,702 @@
+[
+    {
+        "vocab": "問題",
+        "sound": "もんだい",
+        "meaning": "problem, question",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "必要",
+        "sound": "ひつよう",
+        "meaning": "need, necessary",
+        "POS": "adjectival noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "もつ",
+        "sound": "もつ",
+        "meaning": "last long, be durable",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "開く",
+        "sound": "あく",
+        "meaning": "open",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "昨年",
+        "sound": "さくねん",
+        "meaning": "last year (formal), (often used in writing)",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "治る",
+        "sound": "なおる",
+        "meaning": "be cured, get well",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "ドル",
+        "sound": "ドル",
+        "meaning": "dollar",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "システム",
+        "sound": "システム",
+        "meaning": "system",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "以上",
+        "sound": "いじょう",
+        "meaning": "more than, not less than",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "最近",
+        "sound": "さいきん",
+        "meaning": "recent, latest",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "世界",
+        "sound": "せかい",
+        "meaning": "world",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "コンピューター",
+        "sound": "コンピューター",
+        "meaning": "computer",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "やる",
+        "sound": "やる",
+        "meaning": "give, (to an inferior)",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "意味",
+        "sound": "いみ",
+        "meaning": "meaning, sense",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "増える",
+        "sound": "ふえる",
+        "meaning": "increase, accrue",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "選ぶ",
+        "sound": "えらぶ",
+        "meaning": "choose, elect",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "生活",
+        "sound": "せいかつ",
+        "meaning": "life, living",
+        "POS": "verbal noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "進める",
+        "sound": "すすめる",
+        "meaning": "go ahead with, proceed",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "続ける",
+        "sound": "つづける",
+        "meaning": "continue, keep up",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "ほとんど",
+        "sound": "ほとんど",
+        "meaning": "almost, hardly",
+        "POS": "adverb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "会社",
+        "sound": "かいしゃ",
+        "meaning": "company, corporation",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "家",
+        "sound": "いえ",
+        "meaning": "house, dwelling",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "多く",
+        "sound": "おおく",
+        "meaning": "much, largely",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "話",
+        "sound": "はなし",
+        "meaning": "talk, story",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "上がる",
+        "sound": "あがる",
+        "meaning": "go up, rise, (physical movement)",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "もう",
+        "sound": "もう",
+        "meaning": "another, again",
+        "POS": "adverb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "集める",
+        "sound": "あつめる",
+        "meaning": "collect, gather",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "声",
+        "sound": "こえ",
+        "meaning": "voice, sound",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "初めて",
+        "sound": "はじめて",
+        "meaning": "for the first time",
+        "POS": "adverb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "変わる",
+        "sound": "かわる",
+        "meaning": "change, turn into",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "まず",
+        "sound": "まず",
+        "meaning": "first of all, to begin with",
+        "POS": "adverb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "社会",
+        "sound": "しゃかい",
+        "meaning": "society",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "プログラム",
+        "sound": "プログラム",
+        "meaning": "program booklet",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "力",
+        "sound": "ちから",
+        "meaning": "strength, power",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "今回",
+        "sound": "こんかい",
+        "meaning": "this time",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "予定",
+        "sound": "よてい",
+        "meaning": "schedule, plan",
+        "POS": "verbal noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "まま",
+        "sound": "まま",
+        "meaning": "as is, still, (in the current state)",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "テレビ",
+        "sound": "テレビ",
+        "meaning": "television",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "減る",
+        "sound": "へる",
+        "meaning": "decrease, diminish",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "消える",
+        "sound": "きえる",
+        "meaning": "be extinguished, disappear",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "家族",
+        "sound": "かぞく",
+        "meaning": "family, household",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "比べる",
+        "sound": "くらべる",
+        "meaning": "compare, contrast",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "生まれる",
+        "sound": "うまれる",
+        "meaning": "be born, come into existence",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "ただ",
+        "sound": "ただ",
+        "meaning": "free of charge",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "これら",
+        "sound": "これら",
+        "meaning": "these",
+        "POS": "pronoun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "調べる",
+        "sound": "しらべる",
+        "meaning": "investigate, check",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "事故",
+        "sound": "じこ",
+        "meaning": "accident, trouble",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "電話",
+        "sound": "でんわ",
+        "meaning": "telephone, phone call",
+        "POS": "verbal noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "外国",
+        "sound": "がいこく",
+        "meaning": "foreign country",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "銀行",
+        "sound": "ぎんこう",
+        "meaning": "bank",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "十分",
+        "sound": "じゅうぶん",
+        "meaning": "enough, plentiful",
+        "POS": "adjectival noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "あまり",
+        "sound": "あまり",
+        "meaning": "(not) much",
+        "POS": "adverb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "写真",
+        "sound": "しゃしん",
+        "meaning": "photograph",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "繰り返す",
+        "sound": "くりかえす",
+        "meaning": "repeat",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "種類",
+        "sound": "しゅるい",
+        "meaning": "kind, type",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "意見",
+        "sound": "いけん",
+        "meaning": "opinion",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "新聞",
+        "sound": "しんぶん",
+        "meaning": "newspaper",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "文章",
+        "sound": "ぶんしょう",
+        "meaning": "sentence, writing",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "目立つ",
+        "sound": "めだつ",
+        "meaning": "stand out, be conspicuous",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "相手",
+        "sound": "あいて",
+        "meaning": "opponent, (in sports, etc.), the other party, partner",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "病院",
+        "sound": "びょういん",
+        "meaning": "hospital",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "厚い",
+        "sound": "あつい",
+        "meaning": "thick, bulky",
+        "POS": "adjective",
+        "difficulty": 1
+    },
+    {
+        "vocab": "忙しい",
+        "sound": "いそがしい",
+        "meaning": "busy, occupied",
+        "POS": "adjective",
+        "difficulty": 1
+    },
+    {
+        "vocab": "薄い",
+        "sound": "うすい",
+        "meaning": "thin, weak",
+        "POS": "adjective",
+        "difficulty": 1
+    },
+    {
+        "vocab": "川",
+        "sound": "かわ",
+        "meaning": "river, stream",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "暗い",
+        "sound": "くらい",
+        "meaning": "dark, gloomy",
+        "POS": "adjective",
+        "difficulty": 1
+    },
+    {
+        "vocab": "クラス",
+        "sound": "クラス",
+        "meaning": "class, (in school)",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "黒い",
+        "sound": "くろい",
+        "meaning": "black, dark",
+        "POS": "adjective",
+        "difficulty": 1
+    },
+    {
+        "vocab": "バス",
+        "sound": "バス",
+        "meaning": "bus",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "青い",
+        "sound": "あおい",
+        "meaning": "blue",
+        "POS": "adjective",
+        "difficulty": 1
+    },
+    {
+        "vocab": "買い物",
+        "sound": "かいもの",
+        "meaning": "shopping, purchase",
+        "POS": "verbal noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "薬",
+        "sound": "くすり",
+        "meaning": "drug, medicine",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "砂糖",
+        "sound": "さとう",
+        "meaning": "sugar",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "休み",
+        "sound": "やすみ",
+        "meaning": "holiday, break",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "郵便局",
+        "sound": "ゆうびんきょく",
+        "meaning": "post office",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "住所",
+        "sound": "じゅうしょ",
+        "meaning": "address",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "こちら",
+        "sound": "こちら",
+        "meaning": "here (polite), this way (polite)",
+        "POS": "pronoun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "財布",
+        "sound": "さいふ",
+        "meaning": "purse, wallet",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "パスポート",
+        "sound": "パスポート",
+        "meaning": "passport",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "椅子",
+        "sound": "いす",
+        "meaning": "chair",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "可愛い",
+        "sound": "かわいい",
+        "meaning": "cute, sweet",
+        "POS": "adjective",
+        "difficulty": 1
+    },
+    {
+        "vocab": "お祖父さん",
+        "sound": "おじいさん",
+        "meaning": "grandfather",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "切手",
+        "sound": "きって",
+        "meaning": "postage stamp",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "涼しい",
+        "sound": "すずしい",
+        "meaning": "cool temperature",
+        "POS": "adjective",
+        "difficulty": 1
+    },
+    {
+        "vocab": "いくつ",
+        "sound": "いくつ",
+        "meaning": "how many, how old",
+        "POS": "interrogative",
+        "difficulty": 1
+    },
+    {
+        "vocab": "メニュー",
+        "sound": "メニュー",
+        "meaning": "menu",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "電気",
+        "sound": "でんき",
+        "meaning": "electricity, electric light",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "勝つ",
+        "sound": "かつ",
+        "meaning": "win",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "負ける",
+        "sound": "まける",
+        "meaning": "lose, be defeated",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "建てる",
+        "sound": "たてる",
+        "meaning": "build, erect",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "日記",
+        "sound": "にっき",
+        "meaning": "diary",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "売り切れ",
+        "sound": "うりきれ",
+        "meaning": "sellout, sold out",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "お巡りさん",
+        "sound": "おまわりさん",
+        "meaning": "police officer",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "目覚まし時計",
+        "sound": "めざましどけい",
+        "meaning": "alarm clock",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "レシート",
+        "sound": "レシート",
+        "meaning": "receipt",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "ティッシュ",
+        "sound": "ティッシュ",
+        "meaning": "tissue, Kleenex",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "歯ブラシ",
+        "sound": "はブラシ",
+        "meaning": "toothbrush",
+        "POS": "noun",
+        "difficulty": 1
+    },
+    {
+        "vocab": "下りる",
+        "sound": "おりる",
+        "meaning": "go down, come down",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "洗う",
+        "sound": "あらう",
+        "meaning": "wash",
+        "POS": "verb",
+        "difficulty": 1
+    },
+    {
+        "vocab": "パート",
+        "sound": "パート",
+        "meaning": "part-time",
+        "POS": "noun",
+        "difficulty": 1
+    }
+]
