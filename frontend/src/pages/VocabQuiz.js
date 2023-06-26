@@ -2,11 +2,15 @@ import { VocabNavBar, VocabLearnPagination } from "../components";
 import { useState, useEffect } from "react";
 import Table from 'react-bootstrap/Table';
 import { Link } from 'react-router-dom';
+import ProgressBar from 'react-bootstrap/ProgressBar';
 
 function VocabQuiz() {
 
     const [data, setData] = useState(null);
     const [arr, setArr] = useState([]);
+    const [correctNo, setCorrectNo] = useState(0);
+    const [totalNo, setTotalNo] = useState(0);
+
 
     const [bStart, setBStart] = useState(false);
 
@@ -25,46 +29,23 @@ function VocabQuiz() {
 
     // useEffect(() => { }, [data]);
 
-    function validation() {
-        var checkboxes = document.getElementsByName("QuizType");
-        var numberOfCheckedItems = 0;
-        for (var i = 0; i < checkboxes.length; i++) {
-            if (checkboxes[i].checked)
-                numberOfCheckedItems++;
-        }
-        if (numberOfCheckedItems === 0) {
-            alert("You need to select at least one");
-            for (var j = 0; j < checkboxes.length; j++) {
-                checkboxes[j].checked = false;
-            }
-            checkboxes[0].checked = true;
-        }
-        if (numberOfCheckedItems > 2) {
-            alert("You can't select more than two types");
-            for (var k = 0; k < checkboxes.length; k++) {
-                checkboxes[k].checked = false;
-            }
-            checkboxes[0].checked = true;
-        }
-    };
-
     function submitValidation() {
         if (!data) {
             return false;
         }
 
-        var checkboxes = document.getElementsByName("QuizType");
-        if (checkboxes[0].checked) {
+        var radioboxes = document.getElementsByName("QuizType");
+        if (radioboxes[0].checked) {
             setBVocab(true);
         } else {
             setBVocab(false);
         }
-        if (checkboxes[1].checked) {
+        if (radioboxes[1].checked) {
             setBSound(true);
         } else {
             setBSound(false);
         }
-        if (checkboxes[2].checked) {
+        if (radioboxes[2].checked) {
             setBMeaning(true);
         } else {
             setBMeaning(false);
@@ -76,6 +57,7 @@ function VocabQuiz() {
 
         shuffle()
         setBStart(true);
+        setTotalNo(arr.length);
         return true;
     };
 
@@ -84,27 +66,41 @@ function VocabQuiz() {
         console.log(arr)
         if (bVocab) {
             if (document.getElementById("textVocab").value !== arr[0].vocab) {
-                document.getElementById("textVocab").value = ""
                 alert(`The answer is ${arr[0].vocab} || ${arr[0].sound} || ${arr[0].meaning}`)
                 arr.push(arr[0])
                 arr.push(arr[0])
-                arr.shift()
-                shuffle()
-                setArr(current => [...current])
+                setTotalNo(totalNo + 1)
+            } else {
+                setCorrectNo(correctNo + 1)
+            }
+            document.getElementById("textVocab").value = ""
+            arr.shift()
+            if (arr.length === 0) {
+                document.getElementById("return").click();
                 return;
             }
+            shuffle()
+            setArr(current => [...current])
+            return;
         }
         if (bSound) {
             if (document.getElementById("textSound").value !== arr[0].sound) {
-                document.getElementById("textSound").value = ""
                 alert(`The answer is ${arr[0].vocab} || ${arr[0].sound} || ${arr[0].meaning}`)
                 arr.push(arr[0])
                 arr.push(arr[0])
-                arr.shift()
-                shuffle()
-                setArr(current => [...current])
+                setTotalNo(totalNo + 1)
+            } else {
+                setCorrectNo(correctNo + 1)
+            }
+            document.getElementById("textSound").value = ""
+            arr.shift()
+            if (arr.length === 0) {
+                document.getElementById("return").click();
                 return;
             }
+            shuffle()
+            setArr(current => [...current])
+            return;
         }
         if (bMeaning) {
             const strs = arr[0].meaning.split(', ')
@@ -112,9 +108,10 @@ function VocabQuiz() {
                 console.log(strs[i])
                 if (document.getElementById("textMeaning").value === strs[i]) {
                     document.getElementById("textMeaning").value = ""
+                    setCorrectNo(correctNo + 1)
                     arr.shift()
                     if (arr.length === 0) {
-                        setBStart(false)
+                        document.getElementById("return").click();
                         return;
                     }
                     shuffle()
@@ -123,6 +120,7 @@ function VocabQuiz() {
                 }
             }
             document.getElementById("textMeaning").value = ""
+            setTotalNo(totalNo + 1)
             alert(`The answer is ${arr[0].vocab} || ${arr[0].sound} || ${arr[0].meaning}`)
             arr.push(arr[0])
             arr.push(arr[0])
@@ -131,21 +129,42 @@ function VocabQuiz() {
             setArr(current => [...current])
             return;
         }
-        document.getElementById("textVocab").value = ""
-        document.getElementById("textSound").value = ""
-        arr.shift()
-        if (arr.length === 0) {
-            setBStart(false)
-            return;
-        }
-        shuffle()
-        setArr(current => [...current])
     }
 
     useEffect(() => {
         console.log("Rerender")
+        if (bVocab && document.getElementById("textVocab")) {
+            console.log("1")
+            document.getElementById("textVocab").addEventListener("keypress", function (event) {
+                if (event.key === "Enter") {
+                    event.preventDefault();
+                    document.getElementById("submit").click();
+                }
+            });
+        }
+        if (bSound && document.getElementById("textSound")) {
+            console.log("2")
+            document.getElementById("textSound").addEventListener("keypress", function (event) {
+                if (event.key === "Enter") {
+                    event.preventDefault();
+                    document.getElementById("submit").click();
+                }
+            });
+        }
+        if (bMeaning && document.getElementById("textMeaning")) {
+            console.log("3")
+            document.getElementById("textMeaning").addEventListener("keypress", function (event) {
+                if (event.key === "Enter") {
+                    event.preventDefault();
+                    document.getElementById("submit").click();
+                }
+            });
+        }
+    }, [bStart])
 
-    }, [bStart, arr])
+
+
+    var percentage = correctNo / totalNo * 100;
 
     return (
         <div>
@@ -160,22 +179,22 @@ function VocabQuiz() {
                         <form onSubmit={submitValidation}>
                             <fieldset>
                                 <div className="row">
-                                    <legend className="col-form-label col-sm-3 pt-0">Quiz Type: (Select not more than 2 types)</legend>
+                                    <legend className="col-form-label col-sm-3 pt-0">Quiz Type: (Select 1 only)</legend>
                                     <div className="col-sm-10">
                                         <div className="form-check">
-                                            <input className="form-check-input" type="checkbox" name="QuizType" id="checkVocab" value="Vocab" onClick={validation} defaultChecked="true" />
+                                            <input className="form-check-input" type="radio" name="QuizType" id="checkVocab" value="Vocab" defaultChecked="true" />
                                             <label className="form-check-label" htmlFor="checkVocab">
                                                 Vocab
                                             </label>
                                         </div>
                                         <div className="form-check">
-                                            <input className="form-check-input" type="checkbox" name="QuizType" id="checkSound" value="Sound" onClick={validation} />
+                                            <input className="form-check-input" type="radio" name="QuizType" id="checkSound" value="Sound" />
                                             <label className="form-check-label" htmlFor="checkSound">
                                                 Sound
                                             </label>
                                         </div>
                                         <div className="form-check">
-                                            <input className="form-check-input" type="checkbox" name="QuizType" id="checkMeaning" value="Meaning" onClick={validation} />
+                                            <input className="form-check-input" type="radio" name="QuizType" id="checkMeaning" value="Meaning" />
                                             <label className="form-check-label" htmlFor="checkMeaning">
                                                 Meaning
                                             </label>
@@ -189,6 +208,7 @@ function VocabQuiz() {
                 {
                     bStart &&
                     <div>
+                        <ProgressBar min={0} max={totalNo} now={correctNo} label={`${percentage}%`} />
                         <Table striped bordered hover>
                             <thead>
                                 <tr>
@@ -199,18 +219,21 @@ function VocabQuiz() {
                             </thead>
                             <tbody>
                                 <tr>
-                                    {!bVocab && <td>{arr[0].vocab}</td>}
                                     {bVocab && <td><input id="textVocab" type="text" /></td>}
-                                    {!bSound && <td>{arr[0].sound}</td>}
+                                    {bVocab && <td></td>}
+                                    {bVocab && <td>{arr[0].meaning}</td>}
+                                    {bSound && <td>{arr[0].vocab}</td>}
                                     {bSound && <td><input id="textSound" type="text" /></td>}
-                                    {!bMeaning && <td>{arr[0].meaning}</td>}
-                                    {bMeaning && <td><input id="textMeaning" type="text" /></td>}
+                                    {bSound && <td></td>}
+                                    {bMeaning && <td>{arr[0].vocab}</td>}
+                                    {bMeaning && <td></td>}
+                                    {bMeaning && <td><td><input id="textMeaning" type="text" /></td></td>}
                                 </tr>
                             </tbody>
                         </Table>
                         <button id="submit" className="btn btn-primary" onClick={checkAnswer}>Submit</button>
-                        <Link to={"/vocab"}><button className="btn btn-primary">Return</button></Link>
-                        
+                        <Link to={"/vocab"}><button id="return" className="btn btn-primary">Return</button></Link>
+
                     </div>
                 }
             </div>
