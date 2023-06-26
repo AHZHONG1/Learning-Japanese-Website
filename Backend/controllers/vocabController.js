@@ -170,5 +170,5 @@ module.exports = {
     getVocabs,
     getVocabById,
     getVocabsByDifficulty,
-    createVocabs
+    createVocabs,
 };
