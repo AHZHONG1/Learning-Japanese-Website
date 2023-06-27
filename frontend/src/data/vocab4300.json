@@ -1,5 +1,6 @@
 [
     {
+        "No": 4301,
         "vocab": "方角",
         "sound": "ほうがく",
         "meaning": "direction, points of the compass",
@@ -11,6 +12,7 @@
         "difficulty": 5
     },
     {
+        "No": 4302,
         "vocab": "締め切る",
         "sound": "しめきる",
         "meaning": "close, fix a deadline",
@@ -22,6 +24,7 @@
         "difficulty": 5
     },
     {
+        "No": 4303,
         "vocab": "半径",
         "sound": "はんけい",
         "meaning": "radius",
@@ -33,6 +36,7 @@
         "difficulty": 5
     },
     {
+        "No": 4304,
         "vocab": "座敷",
         "sound": "ざしき",
         "meaning": "Japanese-style room",
@@ -44,6 +48,7 @@
         "difficulty": 5
     },
     {
+        "No": 4305,
         "vocab": "障子",
         "sound": "しょうじ",
         "meaning": "paper sliding-door",
@@ -55,6 +60,7 @@
         "difficulty": 5
     },
     {
+        "No": 4306,
         "vocab": "赤道",
         "sound": "せきどう",
         "meaning": "equator",
@@ -66,6 +72,7 @@
         "difficulty": 5
     },
     {
+        "No": 4307,
         "vocab": "召し上がる",
         "sound": "めしあがる",
         "meaning": "eat (honorific)",
@@ -77,6 +84,7 @@
         "difficulty": 5
     },
     {
+        "No": 4308,
         "vocab": "物音",
         "sound": "ものおと",
         "meaning": "noise, sound",
@@ -88,6 +96,7 @@
         "difficulty": 5
     },
     {
+        "No": 4309,
         "vocab": "遠足",
         "sound": "えんそく",
         "meaning": "excursion",
@@ -99,6 +108,7 @@
         "difficulty": 5
     },
     {
+        "No": 4310,
         "vocab": "日課",
         "sound": "にっか",
         "meaning": "daily routine",
@@ -110,6 +120,7 @@
         "difficulty": 5
     },
     {
+        "No": 4311,
         "vocab": "遊園地",
         "sound": "ゆうえんち",
         "meaning": "amusement park",
@@ -121,6 +132,7 @@
         "difficulty": 5
     },
     {
+        "No": 4312,
         "vocab": "ペンキ",
         "sound": "ペンキ",
         "meaning": "paint",
@@ -132,6 +144,7 @@
         "difficulty": 5
     },
     {
+        "No": 4313,
         "vocab": "和服",
         "sound": "わふく",
         "meaning": "Japanese clothes",
@@ -143,6 +156,7 @@
         "difficulty": 5
     },
     {
+        "No": 4314,
         "vocab": "蛍光灯",
         "sound": "けいこうとう",
         "meaning": "fluorescent light",
@@ -154,6 +168,7 @@
         "difficulty": 5
     },
     {
+        "No": 4315,
         "vocab": "正門",
         "sound": "せいもん",
         "meaning": "main gate, main entrance",
@@ -165,6 +180,7 @@
         "difficulty": 5
     },
     {
+        "No": 4316,
         "vocab": "下水",
         "sound": "げすい",
         "meaning": "sewerage, drainage",
@@ -176,6 +192,7 @@
         "difficulty": 5
     },
     {
+        "No": 4317,
         "vocab": "副詞",
         "sound": "ふくし",
         "meaning": "adverb",
@@ -187,6 +204,7 @@
         "difficulty": 5
     },
     {
+        "No": 4318,
         "vocab": "待合室",
         "sound": "まちあいしつ",
         "meaning": "waiting room",
@@ -198,6 +216,7 @@
         "difficulty": 5
     },
     {
+        "No": 4319,
         "vocab": "車庫",
         "sound": "しゃこ",
         "meaning": "garage",
@@ -209,6 +228,7 @@
         "difficulty": 5
     },
     {
+        "No": 4320,
         "vocab": "受話器",
         "sound": "じゅわき",
         "meaning": "telephone receiver",
@@ -220,6 +240,7 @@
         "difficulty": 5
     },
     {
+        "No": 4321,
         "vocab": "総理大臣",
         "sound": "そうりだいじん",
         "meaning": "prime minister of Japan",
@@ -231,6 +252,7 @@
         "difficulty": 5
     },
     {
+        "No": 4322,
         "vocab": "生け花",
         "sound": "いけばな",
         "meaning": "flower arrangement",
@@ -242,6 +264,7 @@
         "difficulty": 5
     },
     {
+        "No": 4323,
         "vocab": "炊事",
         "sound": "すいじ",
         "meaning": "cooking (for oneself or one's family)",
@@ -253,6 +276,7 @@
         "difficulty": 5
     },
     {
+        "No": 4324,
         "vocab": "北極",
         "sound": "ほっきょく",
         "meaning": "North Pole",
@@ -264,6 +288,7 @@
         "difficulty": 5
     },
     {
+        "No": 4325,
         "vocab": "長方形",
         "sound": "ちょうほうけい",
         "meaning": "rectangle",
@@ -275,6 +300,7 @@
         "difficulty": 5
     },
     {
+        "No": 4326,
         "vocab": "出迎え",
         "sound": "でむかえ",
         "meaning": "picking someone up, greeting",
@@ -286,6 +312,7 @@
         "difficulty": 5
     },
     {
+        "No": 4327,
         "vocab": "看病",
         "sound": "かんびょう",
         "meaning": "looking after a sick person",
@@ -297,6 +324,7 @@
         "difficulty": 5
     },
     {
+        "No": 4328,
         "vocab": "刺さる",
         "sound": "ささる",
         "meaning": "stick, get stuck",
@@ -308,6 +336,7 @@
         "difficulty": 5
     },
     {
+        "No": 4329,
         "vocab": "霜",
         "sound": "しも",
         "meaning": "frost",
@@ -319,6 +348,7 @@
         "difficulty": 5
     },
     {
+        "No": 4330,
         "vocab": "書道",
         "sound": "しょどう",
         "meaning": "Japanese calligraphy",
@@ -330,6 +360,7 @@
         "difficulty": 5
     },
     {
+        "No": 4331,
         "vocab": "直角",
         "sound": "ちょっかく",
         "meaning": "right angle",
@@ -341,6 +372,7 @@
         "difficulty": 5
     },
     {
+        "No": 4332,
         "vocab": "申し訳ない",
         "sound": "もうしわけない",
         "meaning": "sorry, inexcusable",
@@ -352,6 +384,7 @@
         "difficulty": 5
     },
     {
+        "No": 4333,
         "vocab": "呼びかける",
         "sound": "よびかける",
         "meaning": "call, urge",
@@ -363,6 +396,7 @@
         "difficulty": 5
     },
     {
+        "No": 4334,
         "vocab": "毛糸",
         "sound": "けいと",
         "meaning": "woolen yarn, wool",
@@ -374,6 +408,7 @@
         "difficulty": 5
     },
     {
+        "No": 4335,
         "vocab": "作製",
         "sound": "さくせい",
         "meaning": "manufacture (of products, machinery, drawings etc.)",
@@ -385,6 +420,7 @@
         "difficulty": 5
     },
     {
+        "No": 4336,
         "vocab": "車掌",
         "sound": "しゃしょう",
         "meaning": "train conductor",
@@ -396,6 +432,7 @@
         "difficulty": 5
     },
     {
+        "No": 4337,
         "vocab": "やかましい",
         "sound": "やかましい",
         "meaning": "noisy, critical, strict",
@@ -407,6 +444,7 @@
         "difficulty": 5
     },
     {
+        "No": 4338,
         "vocab": "決まり",
         "sound": "きまり",
         "meaning": "(informal) rule, regulation",
@@ -418,6 +456,7 @@
         "difficulty": 5
     },
     {
+        "No": 4339,
         "vocab": "縮む",
         "sound": "ちぢむ",
         "meaning": "shrink, contract",
@@ -429,6 +468,7 @@
         "difficulty": 5
     },
     {
+        "No": 4340,
         "vocab": "跳ねる",
         "sound": "はねる",
         "meaning": "bounce, hop",
@@ -440,6 +480,7 @@
         "difficulty": 5
     },
     {
+        "No": 4341,
         "vocab": "払い込む",
         "sound": "はらいこむ",
         "meaning": "pay in",
@@ -451,6 +492,7 @@
         "difficulty": 5
     },
     {
+        "No": 4342,
         "vocab": "人通り",
         "sound": "ひとどおり",
         "meaning": "pedestrian traffic",
@@ -462,6 +504,7 @@
         "difficulty": 5
     },
     {
+        "No": 4343,
         "vocab": "不規則",
         "sound": "ふきそく",
         "meaning": "irregular",
@@ -473,6 +516,7 @@
         "difficulty": 5
     },
     {
+        "No": 4344,
         "vocab": "不平",
         "sound": "ふへい",
         "meaning": "discontent, complaint",
@@ -484,6 +528,7 @@
         "difficulty": 5
     },
     {
+        "No": 4345,
         "vocab": "地平線",
         "sound": "ちへいせん",
         "meaning": "horizon where the sky meets the land",
@@ -495,6 +540,7 @@
         "difficulty": 5
     },
     {
+        "No": 4346,
         "vocab": "務め",
         "sound": "つとめ",
         "meaning": "duty, responsibilities",
@@ -506,6 +552,7 @@
         "difficulty": 5
     },
     {
+        "No": 4347,
         "vocab": "濁る",
         "sound": "にごる",
         "meaning": "become turbid, get cloudy",
@@ -517,6 +564,7 @@
         "difficulty": 5
     },
     {
+        "No": 4348,
         "vocab": "自然科学",
         "sound": "しぜんかがく",
         "meaning": "natural science",
@@ -528,6 +576,7 @@
         "difficulty": 5
     },
     {
+        "No": 4349,
         "vocab": "末っ子",
         "sound": "すえっこ",
         "meaning": "youngest child",
@@ -539,6 +588,7 @@
         "difficulty": 5
     },
     {
+        "No": 4350,
         "vocab": "送別",
         "sound": "そうべつ",
         "meaning": "farewell, send-off",
@@ -550,6 +600,7 @@
         "difficulty": 5
     },
     {
+        "No": 4351,
         "vocab": "プラットホーム",
         "sound": "プラットホーム",
         "meaning": "platform",
@@ -561,6 +612,7 @@
         "difficulty": 5
     },
     {
+        "No": 4352,
         "vocab": "海水浴",
         "sound": "かいすいよく",
         "meaning": "sea bathing",
@@ -572,6 +624,7 @@
         "difficulty": 5
     },
     {
+        "No": 4353,
         "vocab": "くず",
         "sound": "くず",
         "meaning": "waste, scrap",
@@ -583,6 +636,7 @@
         "difficulty": 5
     },
     {
+        "No": 4354,
         "vocab": "白髪",
         "sound": "しらが",
         "meaning": "white hair, gray hair",
@@ -594,6 +648,7 @@
         "difficulty": 5
     },
     {
+        "No": 4355,
         "vocab": "日用品",
         "sound": "にちようひん",
         "meaning": "groceries, daily necessities",
@@ -605,6 +660,7 @@
         "difficulty": 5
     },
     {
+        "No": 4356,
         "vocab": "裏口",
         "sound": "うらぐち",
         "meaning": "back door",
@@ -616,6 +672,7 @@
         "difficulty": 5
     },
     {
+        "No": 4357,
         "vocab": "断水",
         "sound": "だんすい",
         "meaning": "water stoppage",
@@ -627,6 +684,7 @@
         "difficulty": 5
     },
     {
+        "No": 4358,
         "vocab": "迷信",
         "sound": "めいしん",
         "meaning": "superstition",
@@ -638,6 +696,7 @@
         "difficulty": 5
     },
     {
+        "No": 4359,
         "vocab": "あちらこちら",
         "sound": "あちらこちら",
         "meaning": "all over, everywhere",
@@ -649,6 +708,7 @@
         "difficulty": 5
     },
     {
+        "No": 4360,
         "vocab": "衣食住",
         "sound": "いしょくじゅう",
         "meaning": "clothing and food and housing",
@@ -660,6 +720,7 @@
         "difficulty": 5
     },
     {
+        "No": 4361,
         "vocab": "今にも",
         "sound": "いまにも",
         "meaning": "at any moment",
@@ -671,6 +732,7 @@
         "difficulty": 5
     },
     {
+        "No": 4362,
         "vocab": "透き通る",
         "sound": "すきとおる",
         "meaning": "become transparent, become clear",
@@ -682,6 +744,7 @@
         "difficulty": 5
     },
     {
+        "No": 4363,
         "vocab": "正方形",
         "sound": "せいほうけい",
         "meaning": "regular square (formal)",
@@ -693,6 +756,7 @@
         "difficulty": 5
     },
     {
+        "No": 4364,
         "vocab": "近づける",
         "sound": "ちかづける",
         "meaning": "bring (something) close",
@@ -704,6 +768,7 @@
         "difficulty": 5
     },
     {
+        "No": 4365,
         "vocab": "引っ込む",
         "sound": "ひっこむ",
         "meaning": "draw back, pull in",
@@ -715,6 +780,7 @@
         "difficulty": 5
     },
     {
+        "No": 4366,
         "vocab": "朗らか",
         "sound": "ほがらか",
         "meaning": "cheerful, bright",
@@ -726,6 +792,7 @@
         "difficulty": 5
     },
     {
+        "No": 4367,
         "vocab": "目上",
         "sound": "めうえ",
         "meaning": "one's superiors, one's seniors",
@@ -737,6 +804,7 @@
         "difficulty": 5
     },
     {
+        "No": 4368,
         "vocab": "落第",
         "sound": "らくだい",
         "meaning": "failing an exam",
@@ -748,6 +816,7 @@
         "difficulty": 5
     },
     {
+        "No": 4369,
         "vocab": "薄める",
         "sound": "うすめる",
         "meaning": "dilute (something), water down",
@@ -759,6 +828,7 @@
         "difficulty": 5
     },
     {
+        "No": 4370,
         "vocab": "砕ける",
         "sound": "くだける",
         "meaning": "be crushed, break",
@@ -770,6 +840,7 @@
         "difficulty": 5
     },
     {
+        "No": 4371,
         "vocab": "催促",
         "sound": "さいそく",
         "meaning": "reminding, urging",
@@ -781,6 +852,7 @@
         "difficulty": 5
     },
     {
+        "No": 4372,
         "vocab": "静まる",
         "sound": "しずまる",
         "meaning": "become quiet, calm down",
@@ -792,6 +864,7 @@
         "difficulty": 5
     },
     {
+        "No": 4373,
         "vocab": "上等",
         "sound": "じょうとう",
         "meaning": "first-class, premium",
@@ -803,6 +876,7 @@
         "difficulty": 5
     },
     {
+        "No": 4374,
         "vocab": "ひとりでに",
         "sound": "ひとりでに",
         "meaning": "automatically, by oneself",
@@ -814,6 +888,7 @@
         "difficulty": 5
     },
     {
+        "No": 4375,
         "vocab": "噴水",
         "sound": "ふんすい",
         "meaning": "water fountain",
@@ -825,6 +900,7 @@
         "difficulty": 5
     },
     {
+        "No": 4376,
         "vocab": "包帯",
         "sound": "ほうたい",
         "meaning": "bandage",
@@ -836,6 +912,7 @@
         "difficulty": 5
     },
     {
+        "No": 4377,
         "vocab": "物差し",
         "sound": "ものさし",
         "meaning": "ruler",
@@ -847,6 +924,7 @@
         "difficulty": 5
     },
     {
+        "No": 4378,
         "vocab": "やっつける",
         "sound": "やっつける",
         "meaning": "beat up",
@@ -858,6 +936,7 @@
         "difficulty": 5
     },
     {
+        "No": 4379,
         "vocab": "拝む",
         "sound": "おがむ",
         "meaning": "bow in veneration, pray",
@@ -869,6 +948,7 @@
         "difficulty": 5
     },
     {
+        "No": 4380,
         "vocab": "始終",
         "sound": "しじゅう",
         "meaning": "from beginning to end, constantly",
@@ -880,6 +960,7 @@
         "difficulty": 5
     },
     {
+        "No": 4381,
         "vocab": "人文科学",
         "sound": "じんぶんかがく",
         "meaning": "humanities",
@@ -891,6 +972,7 @@
         "difficulty": 5
     },
     {
+        "No": 4382,
         "vocab": "調味料",
         "sound": "ちょうみりょう",
         "meaning": "seasoning",
@@ -902,6 +984,7 @@
         "difficulty": 5
     },
     {
+        "No": 4383,
         "vocab": "漬ける",
         "sound": "つける",
         "meaning": "pickle, marinade",
@@ -913,6 +996,7 @@
         "difficulty": 5
     },
     {
+        "No": 4384,
         "vocab": "倣う",
         "sound": "ならう",
         "meaning": "copy, follow an example",
@@ -924,6 +1008,7 @@
         "difficulty": 5
     },
     {
+        "No": 4385,
         "vocab": "花瓶",
         "sound": "かびん",
         "meaning": "flower vase",
@@ -935,6 +1020,7 @@
         "difficulty": 5
     },
     {
+        "No": 4386,
         "vocab": "災難",
         "sound": "さいなん",
         "meaning": "calamity, misfortune",
@@ -946,6 +1032,7 @@
         "difficulty": 5
     },
     {
+        "No": 4387,
         "vocab": "若々しい",
         "sound": "わかわかしい",
         "meaning": "youthful, young-looking",
@@ -957,6 +1044,7 @@
         "difficulty": 5
     },
     {
+        "No": 4388,
         "vocab": "逆さ",
         "sound": "さかさ",
         "meaning": "reverse, inversion",
@@ -968,6 +1056,7 @@
         "difficulty": 5
     },
     {
+        "No": 4389,
         "vocab": "敬う",
         "sound": "うやまう",
         "meaning": "respect, honor",
@@ -979,6 +1068,7 @@
         "difficulty": 5
     },
     {
+        "No": 4390,
         "vocab": "逃がす",
         "sound": "にがす",
         "meaning": "let (someone/something) to escape",
@@ -990,6 +1080,7 @@
         "difficulty": 5
     },
     {
+        "No": 4391,
         "vocab": "日当たり",
         "sound": "ひあたり",
         "meaning": "exposure to the sun",
@@ -1001,6 +1092,7 @@
         "difficulty": 5
     },
     {
+        "No": 4392,
         "vocab": "交ぜる",
         "sound": "まぜる",
         "meaning": "mix (things distinguishable)",
@@ -1012,6 +1104,7 @@
         "difficulty": 5
     },
     {
+        "No": 4393,
         "vocab": "もしかすると",
         "sound": "もしかすると",
         "meaning": "possibly, by any chance",
@@ -1023,6 +1116,7 @@
         "difficulty": 5
     },
     {
+        "No": 4394,
         "vocab": "回数券",
         "sound": "かいすうけん",
         "meaning": "book of (discounted) tickets",
@@ -1034,6 +1128,7 @@
         "difficulty": 5
     },
     {
+        "No": 4395,
         "vocab": "口紅",
         "sound": "くちべに",
         "meaning": "lipstick",
@@ -1045,6 +1140,7 @@
         "difficulty": 5
     },
     {
+        "No": 4396,
         "vocab": "謙遜",
         "sound": "けんそん",
         "meaning": "modesty, humbleness",
@@ -1056,6 +1152,7 @@
         "difficulty": 5
     },
     {
+        "No": 4397,
         "vocab": "貸し出し",
         "sound": "かしだし",
         "meaning": "lending service, checking out",
@@ -1067,6 +1164,7 @@
         "difficulty": 5
     },
     {
+        "No": 4398,
         "vocab": "電灯",
         "sound": "でんとう",
         "meaning": "electric light",
@@ -1078,6 +1176,7 @@
         "difficulty": 5
     },
     {
+        "No": 4399,
         "vocab": "恨み",
         "sound": "うらみ",
         "meaning": "grudge, hatred",
@@ -1089,6 +1188,7 @@
         "difficulty": 5
     },
     {
+        "No": 4400,
         "vocab": "とっさに",
         "sound": "とっさに",
         "meaning": "at once, promptly",

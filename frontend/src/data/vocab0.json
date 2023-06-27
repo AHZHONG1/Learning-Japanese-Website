@@ -1,5 +1,6 @@
 [
     {
+        "No": 1,
         "vocab": "行く",
         "sound": "いく",
         "meaning": "go",
@@ -11,6 +12,7 @@
         "difficulty": 1
     },
     {
+        "No": 2,
         "vocab": "見る",
         "sound": "みる",
         "meaning": "see, look at",
@@ -22,6 +24,7 @@
         "difficulty": 1
     },
     {
+        "No": 3,
         "vocab": "多い",
         "sound": "おおい",
         "meaning": "a lot of, many",
@@ -33,6 +36,7 @@
         "difficulty": 1
     },
     {
+        "No": 4,
         "vocab": "家",
         "sound": "うち",
         "meaning": "home, household",
@@ -44,6 +48,7 @@
         "difficulty": 1
     },
     {
+        "No": 5,
         "vocab": "これ",
         "sound": "これ",
         "meaning": "this, this one",
@@ -55,6 +60,7 @@
         "difficulty": 1
     },
     {
+        "No": 6,
         "vocab": "それ",
         "sound": "それ",
         "meaning": "that, that one",
@@ -66,6 +72,7 @@
         "difficulty": 1
     },
     {
+        "No": 7,
         "vocab": "私",
         "sound": "わたし",
         "meaning": "I (general)",
@@ -77,6 +84,7 @@
         "difficulty": 1
     },
     {
+        "No": 8,
         "vocab": "仕事",
         "sound": "しごと",
         "meaning": "work, job",
@@ -88,6 +96,7 @@
         "difficulty": 1
     },
     {
+        "No": 9,
         "vocab": "いつ",
         "sound": "いつ",
         "meaning": "when",
@@ -99,6 +108,7 @@
         "difficulty": 1
     },
     {
+        "No": 10,
         "vocab": "する",
         "sound": "する",
         "meaning": "do, make",
@@ -110,6 +120,7 @@
         "difficulty": 1
     },
     {
+        "No": 11,
         "vocab": "出る",
         "sound": "でる",
         "meaning": "go out, leave",
@@ -121,6 +132,7 @@
         "difficulty": 1
     },
     {
+        "No": 12,
         "vocab": "使う",
         "sound": "つかう",
         "meaning": "use, make use of",
@@ -132,6 +144,7 @@
         "difficulty": 1
     },
     {
+        "No": 13,
         "vocab": "所",
         "sound": "ところ",
         "meaning": "place",
@@ -143,6 +156,7 @@
         "difficulty": 1
     },
     {
+        "No": 14,
         "vocab": "作る",
         "sound": "つくる",
         "meaning": "make, create",
@@ -154,6 +168,7 @@
         "difficulty": 1
     },
     {
+        "No": 15,
         "vocab": "思う",
         "sound": "おもう",
         "meaning": "think",
@@ -165,6 +180,7 @@
         "difficulty": 1
     },
     {
+        "No": 16,
         "vocab": "持つ",
         "sound": "もつ",
         "meaning": "have, possess",
@@ -176,6 +192,7 @@
         "difficulty": 1
     },
     {
+        "No": 17,
         "vocab": "買う",
         "sound": "かう",
         "meaning": "buy",
@@ -187,6 +204,7 @@
         "difficulty": 1
     },
     {
+        "No": 18,
         "vocab": "時間",
         "sound": "じかん",
         "meaning": "time, hour",
@@ -198,6 +216,7 @@
         "difficulty": 1
     },
     {
+        "No": 19,
         "vocab": "知る",
         "sound": "しる",
         "meaning": "know",
@@ -209,6 +228,7 @@
         "difficulty": 1
     },
     {
+        "No": 20,
         "vocab": "同じ",
         "sound": "おなじ",
         "meaning": "same, identical",
@@ -220,6 +240,7 @@
         "difficulty": 1
     },
     {
+        "No": 21,
         "vocab": "今",
         "sound": "いま",
         "meaning": "now",
@@ -231,6 +252,7 @@
         "difficulty": 1
     },
     {
+        "No": 22,
         "vocab": "新しい",
         "sound": "あたらしい",
         "meaning": "new",
@@ -242,6 +264,7 @@
         "difficulty": 1
     },
     {
+        "No": 23,
         "vocab": "なる",
         "sound": "なる",
         "meaning": "become",
@@ -253,6 +276,7 @@
         "difficulty": 1
     },
     {
+        "No": 24,
         "vocab": "まだ",
         "sound": "まだ",
         "meaning": "(not) yet, still",
@@ -264,6 +288,7 @@
         "difficulty": 1
     },
     {
+        "No": 25,
         "vocab": "あと",
         "sound": "あと",
         "meaning": "after",
@@ -275,6 +300,7 @@
         "difficulty": 1
     },
     {
+        "No": 26,
         "vocab": "聞く",
         "sound": "きく",
         "meaning": "hear, ask, listen",
@@ -286,6 +312,7 @@
         "difficulty": 1
     },
     {
+        "No": 27,
         "vocab": "言う",
         "sound": "いう",
         "meaning": "say, tell",
@@ -297,6 +324,7 @@
         "difficulty": 1
     },
     {
+        "No": 28,
         "vocab": "少ない",
         "sound": "すくない",
         "meaning": "few, little",
@@ -308,6 +336,7 @@
         "difficulty": 1
     },
     {
+        "No": 29,
         "vocab": "高い",
         "sound": "たかい",
         "meaning": "high, tall",
@@ -319,6 +348,7 @@
         "difficulty": 1
     },
     {
+        "No": 30,
         "vocab": "子供",
         "sound": "こども",
         "meaning": "child",
@@ -330,6 +360,7 @@
         "difficulty": 1
     },
     {
+        "No": 31,
         "vocab": "そう",
         "sound": "そう",
         "meaning": "so, that way",
@@ -341,6 +372,7 @@
         "difficulty": 1
     },
     {
+        "No": 32,
         "vocab": "もう",
         "sound": "もう",
         "meaning": "already, yet",
@@ -352,6 +384,7 @@
         "difficulty": 1
     },
     {
+        "No": 33,
         "vocab": "学生",
         "sound": "がくせい",
         "meaning": "student",
@@ -363,6 +396,7 @@
         "difficulty": 1
     },
     {
+        "No": 34,
         "vocab": "熱い",
         "sound": "あつい",
         "meaning": "hot (to touch)",
@@ -374,6 +408,7 @@
         "difficulty": 1
     },
     {
+        "No": 35,
         "vocab": "どうぞ",
         "sound": "どうぞ",
         "meaning": "please",
@@ -385,6 +420,7 @@
         "difficulty": 1
     },
     {
+        "No": 36,
         "vocab": "午後",
         "sound": "ごご",
         "meaning": "afternoon, p.m.",
@@ -396,6 +432,7 @@
         "difficulty": 1
     },
     {
+        "No": 37,
         "vocab": "長い",
         "sound": "ながい",
         "meaning": "long",
@@ -407,6 +444,7 @@
         "difficulty": 1
     },
     {
+        "No": 38,
         "vocab": "本",
         "sound": "ほん",
         "meaning": "book",
@@ -418,6 +456,7 @@
         "difficulty": 1
     },
     {
+        "No": 39,
         "vocab": "今年",
         "sound": "ことし",
         "meaning": "this year (colloquial)",
@@ -429,6 +468,7 @@
         "difficulty": 1
     },
     {
+        "No": 40,
         "vocab": "よく",
         "sound": "よく",
         "meaning": "often, well",
@@ -440,6 +480,7 @@
         "difficulty": 1
     },
     {
+        "No": 41,
         "vocab": "彼女",
         "sound": "かのじょ",
         "meaning": "she, girlfriend",
@@ -451,6 +492,7 @@
         "difficulty": 1
     },
     {
+        "No": 42,
         "vocab": "どう",
         "sound": "どう",
         "meaning": "how, what",
@@ -462,6 +504,7 @@
         "difficulty": 1
     },
     {
+        "No": 43,
         "vocab": "言葉",
         "sound": "ことば",
         "meaning": "word, language",
@@ -473,6 +516,7 @@
         "difficulty": 1
     },
     {
+        "No": 44,
         "vocab": "顔",
         "sound": "かお",
         "meaning": "face",
@@ -484,6 +528,7 @@
         "difficulty": 1
     },
     {
+        "No": 45,
         "vocab": "終わる",
         "sound": "おわる",
         "meaning": "finish, end",
@@ -495,6 +540,7 @@
         "difficulty": 1
     },
     {
+        "No": 46,
         "vocab": "一つ",
         "sound": "ひとつ",
         "meaning": "one (thing)",
@@ -506,6 +552,7 @@
         "difficulty": 1
     },
     {
+        "No": 47,
         "vocab": "あげる",
         "sound": "あげる",
         "meaning": "give, offer (colloquial)",
@@ -517,6 +564,7 @@
         "difficulty": 1
     },
     {
+        "No": 48,
         "vocab": "こう",
         "sound": "こう",
         "meaning": "like this, such",
@@ -528,6 +576,7 @@
         "difficulty": 1
     },
     {
+        "No": 49,
         "vocab": "学校",
         "sound": "がっこう",
         "meaning": "school",
@@ -539,6 +588,7 @@
         "difficulty": 1
     },
     {
+        "No": 50,
         "vocab": "くれる",
         "sound": "くれる",
         "meaning": "be given",
@@ -550,6 +600,7 @@
         "difficulty": 1
     },
     {
+        "No": 51,
         "vocab": "始める",
         "sound": "はじめる",
         "meaning": "start (something)",
@@ -561,6 +612,7 @@
         "difficulty": 1
     },
     {
+        "No": 52,
         "vocab": "起きる",
         "sound": "おきる",
         "meaning": "get up, get out of bed",
@@ -572,6 +624,7 @@
         "difficulty": 1
     },
     {
+        "No": 53,
         "vocab": "春",
         "sound": "はる",
         "meaning": "spring",
@@ -583,6 +636,7 @@
         "difficulty": 1
     },
     {
+        "No": 54,
         "vocab": "午前",
         "sound": "ごぜん",
         "meaning": "morning, a.m.",
@@ -594,6 +648,7 @@
         "difficulty": 1
     },
     {
+        "No": 55,
         "vocab": "別",
         "sound": "べつ",
         "meaning": "another, different",
@@ -605,6 +660,7 @@
         "difficulty": 1
     },
     {
+        "No": 56,
         "vocab": "どこ",
         "sound": "どこ",
         "meaning": "where",
@@ -616,6 +672,7 @@
         "difficulty": 1
     },
     {
+        "No": 57,
         "vocab": "部屋",
         "sound": "へや",
         "meaning": "room",
@@ -627,6 +684,7 @@
         "difficulty": 1
     },
     {
+        "No": 58,
         "vocab": "若い",
         "sound": "わかい",
         "meaning": "young",
@@ -638,6 +696,7 @@
         "difficulty": 1
     },
     {
+        "No": 59,
         "vocab": "車",
         "sound": "くるま",
         "meaning": "car, automobile",
@@ -649,6 +708,7 @@
         "difficulty": 1
     },
     {
+        "No": 60,
         "vocab": "置く",
         "sound": "おく",
         "meaning": "put, place",
@@ -660,6 +720,7 @@
         "difficulty": 1
     },
     {
+        "No": 61,
         "vocab": "住む",
         "sound": "すむ",
         "meaning": "live, reside",
@@ -671,6 +732,7 @@
         "difficulty": 1
     },
     {
+        "No": 62,
         "vocab": "働く",
         "sound": "はたらく",
         "meaning": "work",
@@ -682,6 +744,7 @@
         "difficulty": 1
     },
     {
+        "No": 63,
         "vocab": "難しい",
         "sound": "むずかしい",
         "meaning": "difficult",
@@ -693,6 +756,7 @@
         "difficulty": 1
     },
     {
+        "No": 64,
         "vocab": "先生",
         "sound": "せんせい",
         "meaning": "teacher (colloquial)",
@@ -704,6 +768,7 @@
         "difficulty": 1
     },
     {
+        "No": 65,
         "vocab": "立つ",
         "sound": "たつ",
         "meaning": "stand, rise",
@@ -715,6 +780,7 @@
         "difficulty": 1
     },
     {
+        "No": 66,
         "vocab": "呼ぶ",
         "sound": "よぶ",
         "meaning": "call, name",
@@ -726,6 +792,7 @@
         "difficulty": 1
     },
     {
+        "No": 67,
         "vocab": "大学",
         "sound": "だいがく",
         "meaning": "university, college",
@@ -737,6 +804,7 @@
         "difficulty": 1
     },
     {
+        "No": 68,
         "vocab": "安い",
         "sound": "やすい",
         "meaning": "cheap, inexpensive",
@@ -748,6 +816,7 @@
         "difficulty": 1
     },
     {
+        "No": 69,
         "vocab": "もっと",
         "sound": "もっと",
         "meaning": "more",
@@ -759,6 +828,7 @@
         "difficulty": 1
     },
     {
+        "No": 70,
         "vocab": "帰る",
         "sound": "かえる",
         "meaning": "go back home",
@@ -770,6 +840,7 @@
         "difficulty": 1
     },
     {
+        "No": 71,
         "vocab": "分かる",
         "sound": "わかる",
         "meaning": "understand",
@@ -781,6 +852,7 @@
         "difficulty": 1
     },
     {
+        "No": 72,
         "vocab": "広い",
         "sound": "ひろい",
         "meaning": "wide, big",
@@ -792,6 +864,7 @@
         "difficulty": 1
     },
     {
+        "No": 73,
         "vocab": "数",
         "sound": "かず",
         "meaning": "number",
@@ -803,6 +876,7 @@
         "difficulty": 1
     },
     {
+        "No": 74,
         "vocab": "近い",
         "sound": "ちかい",
         "meaning": "near, close",
@@ -814,6 +888,7 @@
         "difficulty": 1
     },
     {
+        "No": 75,
         "vocab": "そこ",
         "sound": "そこ",
         "meaning": "there",
@@ -825,6 +900,7 @@
         "difficulty": 1
     },
     {
+        "No": 76,
         "vocab": "走る",
         "sound": "はしる",
         "meaning": "run",
@@ -836,6 +912,7 @@
         "difficulty": 1
     },
     {
+        "No": 77,
         "vocab": "入れる",
         "sound": "いれる",
         "meaning": "put in",
@@ -847,6 +924,7 @@
         "difficulty": 1
     },
     {
+        "No": 78,
         "vocab": "教える",
         "sound": "おしえる",
         "meaning": "teach, tell",
@@ -858,6 +936,7 @@
         "difficulty": 1
     },
     {
+        "No": 79,
         "vocab": "歩く",
         "sound": "あるく",
         "meaning": "walk, go on foot",
@@ -869,6 +948,7 @@
         "difficulty": 1
     },
     {
+        "No": 80,
         "vocab": "会う",
         "sound": "あう",
         "meaning": "meet",
@@ -880,6 +960,7 @@
         "difficulty": 1
     },
     {
+        "No": 81,
         "vocab": "書く",
         "sound": "かく",
         "meaning": "write",
@@ -891,6 +972,7 @@
         "difficulty": 1
     },
     {
+        "No": 82,
         "vocab": "頭",
         "sound": "あたま",
         "meaning": "head",
@@ -902,6 +984,7 @@
         "difficulty": 1
     },
     {
+        "No": 83,
         "vocab": "売る",
         "sound": "うる",
         "meaning": "sell",
@@ -913,6 +996,7 @@
         "difficulty": 1
     },
     {
+        "No": 84,
         "vocab": "大好き",
         "sound": "だいすき",
         "meaning": "like (something) a lot",
@@ -924,6 +1008,7 @@
         "difficulty": 1
     },
     {
+        "No": 85,
         "vocab": "体",
         "sound": "からだ",
         "meaning": "body, physique, physical condition",
@@ -935,6 +1020,7 @@
         "difficulty": 1
     },
     {
+        "No": 86,
         "vocab": "直ぐ",
         "sound": "すぐ",
         "meaning": "at once, soon",
@@ -946,6 +1032,7 @@
         "difficulty": 1
     },
     {
+        "No": 87,
         "vocab": "飛ぶ",
         "sound": "とぶ",
         "meaning": "fly",
@@ -957,6 +1044,7 @@
         "difficulty": 1
     },
     {
+        "No": 88,
         "vocab": "とても",
         "sound": "とても",
         "meaning": "very (colloquial)",
@@ -968,6 +1056,7 @@
         "difficulty": 1
     },
     {
+        "No": 89,
         "vocab": "誰",
         "sound": "だれ",
         "meaning": "who",
@@ -979,6 +1068,7 @@
         "difficulty": 1
     },
     {
+        "No": 90,
         "vocab": "好き",
         "sound": "すき",
         "meaning": "favorite, liked",
@@ -990,6 +1080,7 @@
         "difficulty": 1
     },
     {
+        "No": 91,
         "vocab": "読む",
         "sound": "よむ",
         "meaning": "read",
@@ -1001,6 +1092,7 @@
         "difficulty": 1
     },
     {
+        "No": 92,
         "vocab": "次",
         "sound": "つぎ",
         "meaning": "next",
@@ -1012,6 +1104,7 @@
         "difficulty": 1
     },
     {
+        "No": 93,
         "vocab": "あなた",
         "sound": "あなた",
         "meaning": "you",
@@ -1023,6 +1116,7 @@
         "difficulty": 1
     },
     {
+        "No": 94,
         "vocab": "飲む",
         "sound": "のむ",
         "meaning": "drink",
@@ -1034,6 +1128,7 @@
         "difficulty": 1
     },
     {
+        "No": 95,
         "vocab": "古い",
         "sound": "ふるい",
         "meaning": "old",
@@ -1045,6 +1140,7 @@
         "difficulty": 1
     },
     {
+        "No": 96,
         "vocab": "質問",
         "sound": "しつもん",
         "meaning": "question",
@@ -1056,6 +1152,7 @@
         "difficulty": 1
     },
     {
+        "No": 97,
         "vocab": "今日",
         "sound": "きょう",
         "meaning": "today (colloquial)",
@@ -1067,6 +1164,7 @@
         "difficulty": 1
     },
     {
+        "No": 98,
         "vocab": "友達",
         "sound": "ともだち",
         "meaning": "friend, companion (colloquial)",
@@ -1078,6 +1176,7 @@
         "difficulty": 1
     },
     {
+        "No": 99,
         "vocab": "早い",
         "sound": "はやい",
         "meaning": "early",
@@ -1089,6 +1188,7 @@
         "difficulty": 1
     },
     {
+        "No": 100,
         "vocab": "どれ",
         "sound": "どれ",
         "meaning": "what, which",

@@ -22,12 +22,13 @@ function VocabLearn() {
                             <th>Sound</th>
                             <th>Meaning</th>
                             <th>Part of Speech</th>
+                            <th>Sentences</th>
                             <th>Difficulty</th>
                         </tr>
                     </thead>
                     <tbody>
                         {data && data.data.map((vocab, index) => (
-                            <VocabResult data={vocab} key={vocab._id} count={index + 1} />
+                            <VocabResult data={vocab} key={vocab._id} />
                         ))}
                     </tbody>
                 </Table>

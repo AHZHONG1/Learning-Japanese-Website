@@ -4,6 +4,7 @@ const Schema = mongoose.Schema;
 
 const Vocab = new Schema(
     {
+        No : { type: Number, required: true },
         vocab: { type: String, required: true },
         sound: { type: String, required: false },
         meaning: {type: String, required: true },

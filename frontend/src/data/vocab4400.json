@@ -1,5 +1,6 @@
 [
     {
+        "No": 4401,
         "vocab": "量る",
         "sound": "はかる",
         "meaning": "measure (weight or volume)",
@@ -11,6 +12,7 @@
         "difficulty": 5
     },
     {
+        "No": 4402,
         "vocab": "不潔",
         "sound": "ふけつ",
         "meaning": "dirty, filthy",
@@ -22,6 +24,7 @@
         "difficulty": 5
     },
     {
+        "No": 4403,
         "vocab": "不通",
         "sound": "ふつう",
         "meaning": "interruption of service",
@@ -33,6 +36,7 @@
         "difficulty": 5
     },
     {
+        "No": 4404,
         "vocab": "待ち合わせる",
         "sound": "まちあわせる",
         "meaning": "meet by appointment",
@@ -44,6 +48,7 @@
         "difficulty": 5
     },
     {
+        "No": 4405,
         "vocab": "三日月",
         "sound": "みかづき",
         "meaning": "crescent moon",
@@ -55,6 +60,7 @@
         "difficulty": 5
     },
     {
+        "No": 4406,
         "vocab": "偶数",
         "sound": "ぐうすう",
         "meaning": "even number",
@@ -66,6 +72,7 @@
         "difficulty": 5
     },
     {
+        "No": 4407,
         "vocab": "利口",
         "sound": "りこう",
         "meaning": "clever, smart",
@@ -77,6 +84,7 @@
         "difficulty": 5
     },
     {
+        "No": 4408,
         "vocab": "座布団",
         "sound": "ざぶとん",
         "meaning": "Japanese cushion",
@@ -88,6 +96,7 @@
         "difficulty": 5
     },
     {
+        "No": 4409,
         "vocab": "失恋",
         "sound": "しつれん",
         "meaning": "broken heart",
@@ -99,6 +108,7 @@
         "difficulty": 5
     },
     {
+        "No": 4410,
         "vocab": "水平線",
         "sound": "すいへいせん",
         "meaning": "horizon where the sky meets the ocean",
@@ -110,6 +120,7 @@
         "difficulty": 5
     },
     {
+        "No": 4411,
         "vocab": "直通",
         "sound": "ちょくつう",
         "meaning": "direct link",
@@ -121,6 +132,7 @@
         "difficulty": 5
     },
     {
+        "No": 4412,
         "vocab": "伝染",
         "sound": "でんせん",
         "meaning": "contagion, infection",
@@ -132,6 +144,7 @@
         "difficulty": 5
     },
     {
+        "No": 4413,
         "vocab": "残らず",
         "sound": "のこらず",
         "meaning": "with nothing left behind, without exception",
@@ -143,6 +156,7 @@
         "difficulty": 5
     },
     {
+        "No": 4414,
         "vocab": "払い戻す",
         "sound": "はらいもどす",
         "meaning": "pay back, reimburse",
@@ -154,6 +168,7 @@
         "difficulty": 5
     },
     {
+        "No": 4415,
         "vocab": "引っ掛かる",
         "sound": "ひっかかる",
         "meaning": "be caught, be trapped",
@@ -165,6 +180,7 @@
         "difficulty": 5
     },
     {
+        "No": 4416,
         "vocab": "夕立",
         "sound": "ゆうだち",
         "meaning": "evening shower",
@@ -176,6 +192,7 @@
         "difficulty": 5
     },
     {
+        "No": 4417,
         "vocab": "今に",
         "sound": "いまに",
         "meaning": "before long, someday",
@@ -187,6 +204,7 @@
         "difficulty": 5
     },
     {
+        "No": 4418,
         "vocab": "器械",
         "sound": "きかい",
         "meaning": "instrument, equipment",
@@ -198,6 +216,7 @@
         "difficulty": 5
     },
     {
+        "No": 4419,
         "vocab": "転がす",
         "sound": "ころがす",
         "meaning": "roll (something) over",
@@ -209,6 +228,7 @@
         "difficulty": 5
     },
     {
+        "No": 4420,
         "vocab": "下書き",
         "sound": "したがき",
         "meaning": "draft",
@@ -220,6 +240,7 @@
         "difficulty": 5
     },
     {
+        "No": 4421,
         "vocab": "仲直り",
         "sound": "なかなおり",
         "meaning": "reconciliation, making up",
@@ -231,6 +252,7 @@
         "difficulty": 5
     },
     {
+        "No": 4422,
         "vocab": "煮える",
         "sound": "にえる",
         "meaning": "become boiled, become simmered",
@@ -242,6 +264,7 @@
         "difficulty": 5
     },
     {
+        "No": 4423,
         "vocab": "憎い",
         "sound": "にくい",
         "meaning": "hateful, abominable",
@@ -253,6 +276,7 @@
         "difficulty": 5
     },
     {
+        "No": 4424,
         "vocab": "迷子",
         "sound": "まいご",
         "meaning": "lost child, lost person",
@@ -264,6 +288,7 @@
         "difficulty": 5
     },
     {
+        "No": 4425,
         "vocab": "くたびれる",
         "sound": "くたびれる",
         "meaning": "get tired, be worn out",
@@ -275,6 +300,7 @@
         "difficulty": 5
     },
     {
+        "No": 4426,
         "vocab": "社会科学",
         "sound": "しゃかいかがく",
         "meaning": "social science",
@@ -286,6 +312,7 @@
         "difficulty": 5
     },
     {
+        "No": 4427,
         "vocab": "便箋",
         "sound": "びんせん",
         "meaning": "letter paper",
@@ -297,6 +324,7 @@
         "difficulty": 5
     },
     {
+        "No": 4428,
         "vocab": "交ざる",
         "sound": "まざる",
         "meaning": "mix, mingle with",
@@ -308,6 +336,7 @@
         "difficulty": 5
     },
     {
+        "No": 4429,
         "vocab": "湯気",
         "sound": "ゆげ",
         "meaning": "steam, vapor",
@@ -319,6 +348,7 @@
         "difficulty": 5
     },
     {
+        "No": 4430,
         "vocab": "道順",
         "sound": "みちじゅん",
         "meaning": "route, directions",
@@ -330,6 +360,7 @@
         "difficulty": 5
     },
     {
+        "No": 4431,
         "vocab": "括弧",
         "sound": "かっこ",
         "meaning": "parentheses, brackets",
@@ -341,6 +372,7 @@
         "difficulty": 5
     },
     {
+        "No": 4432,
         "vocab": "紙くず",
         "sound": "かみくず",
         "meaning": "wastepaper",
@@ -352,6 +384,7 @@
         "difficulty": 5
     },
     {
+        "No": 4433,
         "vocab": "至急",
         "sound": "しきゅう",
         "meaning": "urgent",
@@ -363,6 +396,7 @@
         "difficulty": 5
     },
     {
+        "No": 4434,
         "vocab": "洗面",
         "sound": "せんめん",
         "meaning": "washing one's face, washing up",
@@ -374,6 +408,7 @@
         "difficulty": 5
     },
     {
+        "No": 4435,
         "vocab": "手洗い",
         "sound": "てあらい",
         "meaning": "washing hands",
@@ -385,6 +420,7 @@
         "difficulty": 5
     },
     {
+        "No": 4436,
         "vocab": "定休日",
         "sound": "ていきゅうび",
         "meaning": "regular holiday",
@@ -396,6 +432,7 @@
         "difficulty": 5
     },
     {
+        "No": 4437,
         "vocab": "出来上がり",
         "sound": "できあがり",
         "meaning": "completion, result",
@@ -407,6 +444,7 @@
         "difficulty": 5
     },
     {
+        "No": 4438,
         "vocab": "肌着",
         "sound": "はだぎ",
         "meaning": "undergarment",
@@ -418,6 +456,7 @@
         "difficulty": 5
     },
     {
+        "No": 4439,
         "vocab": "一休み",
         "sound": "ひとやすみ",
         "meaning": "short break",
@@ -429,6 +468,7 @@
         "difficulty": 5
     },
     {
+        "No": 4440,
         "vocab": "湯飲み",
         "sound": "ゆのみ",
         "meaning": "teacup",
@@ -440,6 +480,7 @@
         "difficulty": 5
     },
     {
+        "No": 4441,
         "vocab": "現れ",
         "sound": "あらわれ",
         "meaning": "manifestation, indication",
@@ -451,6 +492,7 @@
         "difficulty": 5
     },
     {
+        "No": 4442,
         "vocab": "入れ物",
         "sound": "いれもの",
         "meaning": "container, holder",
@@ -462,6 +504,7 @@
         "difficulty": 5
     },
     {
+        "No": 4443,
         "vocab": "休講",
         "sound": "きゅうこう",
         "meaning": "cancellation of a lecture",
@@ -473,6 +516,7 @@
         "difficulty": 5
     },
     {
+        "No": 4444,
         "vocab": "射す",
         "sound": "さす",
         "meaning": "shine on",
@@ -484,6 +528,7 @@
         "difficulty": 5
     },
     {
+        "No": 4445,
         "vocab": "釣り合う",
         "sound": "つりあう",
         "meaning": "balance out, match",
@@ -495,6 +540,7 @@
         "difficulty": 5
     },
     {
+        "No": 4446,
         "vocab": "所々",
         "sound": "ところどころ",
         "meaning": "here and there, in places",
@@ -506,6 +552,7 @@
         "difficulty": 5
     },
     {
+        "No": 4447,
         "vocab": "ふるさと",
         "sound": "ふるさと",
         "meaning": "hometown, birthplace (colloquial)",
@@ -517,6 +564,7 @@
         "difficulty": 5
     },
     {
+        "No": 4448,
         "vocab": "ふわふわ",
         "sound": "ふわふわ",
         "meaning": "soft and fluffy",
@@ -528,6 +576,7 @@
         "difficulty": 5
     },
     {
+        "No": 4449,
         "vocab": "回り道",
         "sound": "まわりみち",
         "meaning": "detour",
@@ -539,6 +588,7 @@
         "difficulty": 5
     },
     {
+        "No": 4450,
         "vocab": "よる",
         "sound": "よる",
         "meaning": "be caused by, be due to",
@@ -550,6 +600,7 @@
         "difficulty": 5
     },
     {
+        "No": 4451,
         "vocab": "お目にかかる",
         "sound": "おめにかかる",
         "meaning": "meet (humble)",
@@ -561,6 +612,7 @@
         "difficulty": 5
     },
     {
+        "No": 4452,
         "vocab": "被せる",
         "sound": "かぶせる",
         "meaning": "cover (something)",
@@ -572,6 +624,7 @@
         "difficulty": 5
     },
     {
+        "No": 4453,
         "vocab": "交替",
         "sound": "こうたい",
         "meaning": "shift, taking turns",
@@ -583,6 +636,7 @@
         "difficulty": 5
     },
     {
+        "No": 4454,
         "vocab": "五十音",
         "sound": "ごじゅうおん",
         "meaning": "Japanese syllabary",
@@ -594,6 +648,7 @@
         "difficulty": 5
     },
     {
+        "No": 4455,
         "vocab": "祭日",
         "sound": "さいじつ",
         "meaning": "national holiday",
@@ -605,6 +660,7 @@
         "difficulty": 5
     },
     {
+        "No": 4456,
         "vocab": "言づける",
         "sound": "ことづける",
         "meaning": "leave a message",
@@ -616,6 +672,7 @@
         "difficulty": 5
     },
     {
+        "No": 4457,
         "vocab": "さびる",
         "sound": "さびる",
         "meaning": "rust, get rusty",
@@ -627,6 +684,7 @@
         "difficulty": 5
     },
     {
+        "No": 4458,
         "vocab": "しわ",
         "sound": "しわ",
         "meaning": "wrinkle",
@@ -638,6 +696,7 @@
         "difficulty": 5
     },
     {
+        "No": 4459,
         "vocab": "重役",
         "sound": "じゅうやく",
         "meaning": "director, executive",
@@ -649,6 +708,7 @@
         "difficulty": 5
     },
     {
+        "No": 4460,
         "vocab": "たんす",
         "sound": "たんす",
         "meaning": "chest of drawers, wardrobe",
@@ -660,6 +720,7 @@
         "difficulty": 5
     },
     {
+        "No": 4461,
         "vocab": "つまずく",
         "sound": "つまずく",
         "meaning": "stumble, trip on",
@@ -671,6 +732,7 @@
         "difficulty": 5
     },
     {
+        "No": 4462,
         "vocab": "包み",
         "sound": "つつみ",
         "meaning": "package, parcel",
@@ -682,6 +744,7 @@
         "difficulty": 5
     },
     {
+        "No": 4463,
         "vocab": "匂う",
         "sound": "におう",
         "meaning": "smell (pleasant)",
@@ -693,6 +756,7 @@
         "difficulty": 5
     },
     {
+        "No": 4464,
         "vocab": "引き止める",
         "sound": "ひきとめる",
         "meaning": "dissuade someone from leaving, hold back",
@@ -704,6 +768,7 @@
         "difficulty": 5
     },
     {
+        "No": 4465,
         "vocab": "塞がる",
         "sound": "ふさがる",
         "meaning": "be closed up, be blocked",
@@ -715,6 +780,7 @@
         "difficulty": 5
     },
     {
+        "No": 4466,
         "vocab": "振り仮名",
         "sound": "ふりがな",
         "meaning": "reading aid in kana characters",
@@ -726,6 +792,7 @@
         "difficulty": 5
     },
     {
+        "No": 4467,
         "vocab": "へそ",
         "sound": "へそ",
         "meaning": "belly button",
@@ -737,6 +804,7 @@
         "difficulty": 5
     },
     {
+        "No": 4468,
         "vocab": "解く",
         "sound": "ほどく",
         "meaning": "undo, unfasten (something)",
@@ -748,6 +816,7 @@
         "difficulty": 5
     },
     {
+        "No": 4469,
         "vocab": "よこす",
         "sound": "よこす",
         "meaning": "send, hand over",
@@ -759,6 +828,7 @@
         "difficulty": 5
     },
     {
+        "No": 4470,
         "vocab": "欲張り",
         "sound": "よくばり",
         "meaning": "greedy",
@@ -770,6 +840,7 @@
         "difficulty": 5
     },
     {
+        "No": 4471,
         "vocab": "詫びる",
         "sound": "わびる",
         "meaning": "sincerely apologize",
@@ -781,6 +852,7 @@
         "difficulty": 5
     },
     {
+        "No": 4472,
         "vocab": "ばからしい",
         "sound": "ばからしい",
         "meaning": "stupid, absurd",
@@ -792,6 +864,7 @@
         "difficulty": 5
     },
     {
+        "No": 4473,
         "vocab": "やたらに",
         "sound": "やたらに",
         "meaning": "frequently, persistently",
@@ -803,6 +876,7 @@
         "difficulty": 5
     },
     {
+        "No": 4474,
         "vocab": "委員会",
         "sound": "いいんかい",
         "meaning": "committee",
@@ -814,6 +888,7 @@
         "difficulty": 5
     },
     {
+        "No": 4475,
         "vocab": "デモ",
         "sound": "デモ",
         "meaning": "demonstration",
@@ -825,6 +900,7 @@
         "difficulty": 5
     },
     {
+        "No": 4476,
         "vocab": "一般に",
         "sound": "いっぱんに",
         "meaning": "generally, in general",
@@ -836,6 +912,7 @@
         "difficulty": 5
     },
     {
+        "No": 4477,
         "vocab": "一斉に",
         "sound": "いっせいに",
         "meaning": "all together, all at once",
@@ -847,6 +924,7 @@
         "difficulty": 5
     },
     {
+        "No": 4478,
         "vocab": "典型的",
         "sound": "てんけいてき",
         "meaning": "typical",
@@ -858,6 +936,7 @@
         "difficulty": 5
     },
     {
+        "No": 4479,
         "vocab": "住宅地",
         "sound": "じゅうたくち",
         "meaning": "residential district",
@@ -869,6 +948,7 @@
         "difficulty": 5
     },
     {
+        "No": 4480,
         "vocab": "出版社",
         "sound": "しゅっぱんしゃ",
         "meaning": "publishing company, publisher",
@@ -880,6 +960,7 @@
         "difficulty": 5
     },
     {
+        "No": 4481,
         "vocab": "ため息",
         "sound": "ためいき",
         "meaning": "sigh",
@@ -891,6 +972,7 @@
         "difficulty": 5
     },
     {
+        "No": 4482,
         "vocab": "電卓",
         "sound": "でんたく",
         "meaning": "calculator",
@@ -902,6 +984,7 @@
         "difficulty": 5
     },
     {
+        "No": 4483,
         "vocab": "めいめい",
         "sound": "めいめい",
         "meaning": "each, individually",
@@ -913,6 +996,7 @@
         "difficulty": 5
     },
     {
+        "No": 4484,
         "vocab": "原稿用紙",
         "sound": "げんこうようし",
         "meaning": "manuscript paper",
@@ -924,6 +1008,7 @@
         "difficulty": 5
     },
     {
+        "No": 4485,
         "vocab": "貴重品",
         "sound": "きちょうひん",
         "meaning": "valuables",
@@ -935,6 +1020,7 @@
         "difficulty": 5
     },
     {
+        "No": 4486,
         "vocab": "弱み",
         "sound": "よわみ",
         "meaning": "weakness, disadvantage",
@@ -946,6 +1032,7 @@
         "difficulty": 5
     },
     {
+        "No": 4487,
         "vocab": "硬さ",
         "sound": "かたさ",
         "meaning": "hardness",
@@ -957,6 +1044,7 @@
         "difficulty": 5
     },
     {
+        "No": 4488,
         "vocab": "ちぎれる",
         "sound": "ちぎれる",
         "meaning": "be torn off, come off",
@@ -968,6 +1056,7 @@
         "difficulty": 5
     },
     {
+        "No": 4489,
         "vocab": "ぶら下げる",
         "sound": "ぶらさげる",
         "meaning": "hang (something) down",
@@ -979,6 +1068,7 @@
         "difficulty": 5
     },
     {
+        "No": 4490,
         "vocab": "新学期",
         "sound": "しんがっき",
         "meaning": "new term, new semester",
@@ -990,6 +1080,7 @@
         "difficulty": 5
     },
     {
+        "No": 4491,
         "vocab": "打ち合わせる",
         "sound": "うちあわせる",
         "meaning": "arrange, discuss",
@@ -1001,6 +1092,7 @@
         "difficulty": 5
     },
     {
+        "No": 4492,
         "vocab": "奇数",
         "sound": "きすう",
         "meaning": "odd number",
@@ -1012,6 +1104,7 @@
         "difficulty": 5
     },
     {
+        "No": 4493,
         "vocab": "お坊さん",
         "sound": "おぼうさん",
         "meaning": "monk, priest",
@@ -1023,6 +1116,7 @@
         "difficulty": 5
     },
     {
+        "No": 4494,
         "vocab": "植物園",
         "sound": "しょくぶつえん",
         "meaning": "botanical garden",
@@ -1034,6 +1128,7 @@
         "difficulty": 5
     },
     {
+        "No": 4495,
         "vocab": "ほこり",
         "sound": "ほこり",
         "meaning": "dust",
@@ -1045,6 +1140,7 @@
         "difficulty": 5
     },
     {
+        "No": 4496,
         "vocab": "割り引き",
         "sound": "わりびき",
         "meaning": "discount, lower estimate",
@@ -1056,6 +1152,7 @@
         "difficulty": 5
     },
     {
+        "No": 4497,
         "vocab": "洗面器",
         "sound": "せんめんき",
         "meaning": "wash bowl",
@@ -1067,6 +1164,7 @@
         "difficulty": 5
     },
     {
+        "No": 4498,
         "vocab": "根拠",
         "sound": "こんきょ",
         "meaning": "grounds, basis",
@@ -1078,6 +1176,7 @@
         "difficulty": 5
     },
     {
+        "No": 4499,
         "vocab": "保つ",
         "sound": "たもつ",
         "meaning": "preserve, retain",
@@ -1089,6 +1188,7 @@
         "difficulty": 5
     },
     {
+        "No": 4500,
         "vocab": "ガイド",
         "sound": "ガイド",
         "meaning": "guide",

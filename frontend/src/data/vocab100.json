@@ -1,5 +1,6 @@
 [
     {
+        "No": 101,
         "vocab": "美しい",
         "sound": "うつくしい",
         "meaning": "beautiful",
@@ -11,6 +12,7 @@
         "difficulty": 1
     },
     {
+        "No": 102,
         "vocab": "いつも",
         "sound": "いつも",
         "meaning": "always (colloquial)",
@@ -22,6 +24,7 @@
         "difficulty": 1
     },
     {
+        "No": 103,
         "vocab": "足",
         "sound": "あし",
         "meaning": "leg, foot",
@@ -33,6 +36,7 @@
         "difficulty": 1
     },
     {
+        "No": 104,
         "vocab": "起こす",
         "sound": "おこす",
         "meaning": "wake (someone) up",
@@ -44,6 +48,7 @@
         "difficulty": 1
     },
     {
+        "No": 105,
         "vocab": "見せる",
         "sound": "みせる",
         "meaning": "show",
@@ -55,6 +60,7 @@
         "difficulty": 1
     },
     {
+        "No": 106,
         "vocab": "娘",
         "sound": "むすめ",
         "meaning": "daughter, girl",
@@ -66,6 +72,7 @@
         "difficulty": 1
     },
     {
+        "No": 107,
         "vocab": "楽しむ",
         "sound": "たのしむ",
         "meaning": "enjoy",
@@ -77,6 +84,7 @@
         "difficulty": 1
     },
     {
+        "No": 108,
         "vocab": "色",
         "sound": "いろ",
         "meaning": "color",
@@ -88,6 +96,7 @@
         "difficulty": 1
     },
     {
+        "No": 109,
         "vocab": "みんな",
         "sound": "みんな",
         "meaning": "everybody (colloquial)",
@@ -99,6 +108,7 @@
         "difficulty": 1
     },
     {
+        "No": 110,
         "vocab": "取る",
         "sound": "とる",
         "meaning": "take, get",
@@ -110,6 +120,7 @@
         "difficulty": 1
     },
     {
+        "No": 111,
         "vocab": "勉強",
         "sound": "べんきょう",
         "meaning": "study",
@@ -121,6 +132,7 @@
         "difficulty": 1
     },
     {
+        "No": 112,
         "vocab": "できる",
         "sound": "できる",
         "meaning": "can do, be good at",
@@ -132,6 +144,7 @@
         "difficulty": 1
     },
     {
+        "No": 113,
         "vocab": "短い",
         "sound": "みじかい",
         "meaning": "short, brief",
@@ -143,6 +156,7 @@
         "difficulty": 1
     },
     {
+        "No": 114,
         "vocab": "落ちる",
         "sound": "おちる",
         "meaning": "fall, come down",
@@ -154,6 +168,7 @@
         "difficulty": 1
     },
     {
+        "No": 115,
         "vocab": "息子",
         "sound": "むすこ",
         "meaning": "son",
@@ -165,6 +180,7 @@
         "difficulty": 1
     },
     {
+        "No": 116,
         "vocab": "白い",
         "sound": "しろい",
         "meaning": "white, blank",
@@ -176,6 +192,7 @@
         "difficulty": 1
     },
     {
+        "No": 117,
         "vocab": "飛行機",
         "sound": "ひこうき",
         "meaning": "airplane",
@@ -187,6 +204,7 @@
         "difficulty": 1
     },
     {
+        "No": 118,
         "vocab": "病気",
         "sound": "びょうき",
         "meaning": "illness",
@@ -198,6 +216,7 @@
         "difficulty": 1
     },
     {
+        "No": 119,
         "vocab": "冬",
         "sound": "ふゆ",
         "meaning": "winter",
@@ -209,6 +228,7 @@
         "difficulty": 1
     },
     {
+        "No": 120,
         "vocab": "年",
         "sound": "とし",
         "meaning": "year, age",
@@ -220,6 +240,7 @@
         "difficulty": 1
     },
     {
+        "No": 121,
         "vocab": "重い",
         "sound": "おもい",
         "meaning": "heavy",
@@ -231,6 +252,7 @@
         "difficulty": 1
     },
     {
+        "No": 122,
         "vocab": "胸",
         "sound": "むね",
         "meaning": "chest, breast",
@@ -242,6 +264,7 @@
         "difficulty": 1
     },
     {
+        "No": 123,
         "vocab": "払う",
         "sound": "はらう",
         "meaning": "pay (money, respect, attention, etc.)",
@@ -253,6 +276,7 @@
         "difficulty": 1
     },
     {
+        "No": 124,
         "vocab": "軽い",
         "sound": "かるい",
         "meaning": "light (of weight, degree, etc.)",
@@ -264,6 +288,7 @@
         "difficulty": 1
     },
     {
+        "No": 125,
         "vocab": "見つける",
         "sound": "みつける",
         "meaning": "find",
@@ -275,6 +300,7 @@
         "difficulty": 1
     },
     {
+        "No": 126,
         "vocab": "忘れる",
         "sound": "わすれる",
         "meaning": "forget, leave behind",
@@ -286,6 +312,7 @@
         "difficulty": 1
     },
     {
+        "No": 127,
         "vocab": "酒",
         "sound": "さけ",
         "meaning": "alcohol, rice wine",
@@ -297,6 +324,7 @@
         "difficulty": 1
     },
     {
+        "No": 128,
         "vocab": "どちら",
         "sound": "どちら",
         "meaning": "which (polite)",
@@ -308,6 +336,7 @@
         "difficulty": 1
     },
     {
+        "No": 129,
         "vocab": "姉",
         "sound": "あね",
         "meaning": "(one's own) older sister",
@@ -319,6 +348,7 @@
         "difficulty": 1
     },
     {
+        "No": 130,
         "vocab": "覚える",
         "sound": "おぼえる",
         "meaning": "memorize, learn",
@@ -330,6 +360,7 @@
         "difficulty": 1
     },
     {
+        "No": 131,
         "vocab": "狭い",
         "sound": "せまい",
         "meaning": "narrow, small",
@@ -341,6 +372,7 @@
         "difficulty": 1
     },
     {
+        "No": 132,
         "vocab": "赤い",
         "sound": "あかい",
         "meaning": "red",
@@ -352,6 +384,7 @@
         "difficulty": 1
     },
     {
+        "No": 133,
         "vocab": "着る",
         "sound": "きる",
         "meaning": "wear, put on",
@@ -363,6 +396,7 @@
         "difficulty": 1
     },
     {
+        "No": 134,
         "vocab": "笑う",
         "sound": "わらう",
         "meaning": "laugh, smile",
@@ -374,6 +408,7 @@
         "difficulty": 1
     },
     {
+        "No": 135,
         "vocab": "一番",
         "sound": "いちばん",
         "meaning": "most, best",
@@ -385,6 +420,7 @@
         "difficulty": 1
     },
     {
+        "No": 136,
         "vocab": "授業",
         "sound": "じゅぎょう",
         "meaning": "class session, lecture",
@@ -396,6 +432,7 @@
         "difficulty": 1
     },
     {
+        "No": 137,
         "vocab": "週",
         "sound": "しゅう",
         "meaning": "week",
@@ -407,6 +444,7 @@
         "difficulty": 1
     },
     {
+        "No": 138,
         "vocab": "漢字",
         "sound": "かんじ",
         "meaning": "Chinese character",
@@ -418,6 +456,7 @@
         "difficulty": 1
     },
     {
+        "No": 139,
         "vocab": "自転車",
         "sound": "じてんしゃ",
         "meaning": "bicycle",
@@ -429,6 +468,7 @@
         "difficulty": 1
     },
     {
+        "No": 140,
         "vocab": "電車",
         "sound": "でんしゃ",
         "meaning": "train",
@@ -440,6 +480,7 @@
         "difficulty": 1
     },
     {
+        "No": 141,
         "vocab": "探す",
         "sound": "さがす",
         "meaning": "search for, look for (someone or something one wants)",
@@ -451,6 +492,7 @@
         "difficulty": 1
     },
     {
+        "No": 142,
         "vocab": "紙",
         "sound": "かみ",
         "meaning": "paper",
@@ -462,6 +504,7 @@
         "difficulty": 1
     },
     {
+        "No": 143,
         "vocab": "歌う",
         "sound": "うたう",
         "meaning": "sing",
@@ -473,6 +516,7 @@
         "difficulty": 1
     },
     {
+        "No": 144,
         "vocab": "遅い",
         "sound": "おそい",
         "meaning": "slow, late",
@@ -484,6 +528,7 @@
         "difficulty": 1
     },
     {
+        "No": 145,
         "vocab": "首",
         "sound": "くび",
         "meaning": "neck",
@@ -495,6 +540,7 @@
         "difficulty": 1
     },
     {
+        "No": 146,
         "vocab": "速い",
         "sound": "はやい",
         "meaning": "fast",
@@ -506,6 +552,7 @@
         "difficulty": 1
     },
     {
+        "No": 147,
         "vocab": "一緒に",
         "sound": "いっしょに",
         "meaning": "together, at the same time",
@@ -517,6 +564,7 @@
         "difficulty": 1
     },
     {
+        "No": 148,
         "vocab": "今月",
         "sound": "こんげつ",
         "meaning": "this month",
@@ -528,6 +576,7 @@
         "difficulty": 1
     },
     {
+        "No": 149,
         "vocab": "遊ぶ",
         "sound": "あそぶ",
         "meaning": "play",
@@ -539,6 +588,7 @@
         "difficulty": 1
     },
     {
+        "No": 150,
         "vocab": "遠い",
         "sound": "とおい",
         "meaning": "far, distant",
@@ -550,6 +600,7 @@
         "difficulty": 1
     },
     {
+        "No": 151,
         "vocab": "弱い",
         "sound": "よわい",
         "meaning": "weak",
@@ -561,6 +612,7 @@
         "difficulty": 1
     },
     {
+        "No": 152,
         "vocab": "耳",
         "sound": "みみ",
         "meaning": "ear",
@@ -572,6 +624,7 @@
         "difficulty": 1
     },
     {
+        "No": 153,
         "vocab": "座る",
         "sound": "すわる",
         "meaning": "sit, sit down",
@@ -583,6 +636,7 @@
         "difficulty": 1
     },
     {
+        "No": 154,
         "vocab": "右",
         "sound": "みぎ",
         "meaning": "right",
@@ -594,6 +648,7 @@
         "difficulty": 1
     },
     {
+        "No": 155,
         "vocab": "浴びる",
         "sound": "あびる",
         "meaning": "take (a shower), bask",
@@ -605,6 +660,7 @@
         "difficulty": 1
     },
     {
+        "No": 156,
         "vocab": "肩",
         "sound": "かた",
         "meaning": "shoulder",
@@ -616,6 +672,7 @@
         "difficulty": 1
     },
     {
+        "No": 157,
         "vocab": "寝る",
         "sound": "ねる",
         "meaning": "sleep, go to sleep",
@@ -627,6 +684,7 @@
         "difficulty": 1
     },
     {
+        "No": 158,
         "vocab": "消す",
         "sound": "けす",
         "meaning": "switch off, turn off",
@@ -638,6 +696,7 @@
         "difficulty": 1
     },
     {
+        "No": 159,
         "vocab": "元気",
         "sound": "げんき",
         "meaning": "healthy, energetic",
@@ -649,6 +708,7 @@
         "difficulty": 1
     },
     {
+        "No": 160,
         "vocab": "全部",
         "sound": "ぜんぶ",
         "meaning": "all, whole",
@@ -660,6 +720,7 @@
         "difficulty": 1
     },
     {
+        "No": 161,
         "vocab": "去年",
         "sound": "きょねん",
         "meaning": "last year (colloquial)",
@@ -671,6 +732,7 @@
         "difficulty": 1
     },
     {
+        "No": 162,
         "vocab": "引く",
         "sound": "ひく",
         "meaning": "draw, pull",
@@ -682,6 +744,7 @@
         "difficulty": 1
     },
     {
+        "No": 163,
         "vocab": "図書館",
         "sound": "としょかん",
         "meaning": "library",
@@ -693,6 +756,7 @@
         "difficulty": 1
     },
     {
+        "No": 164,
         "vocab": "上げる",
         "sound": "あげる",
         "meaning": "raise, lift",
@@ -704,6 +768,7 @@
         "difficulty": 1
     },
     {
+        "No": 165,
         "vocab": "緑",
         "sound": "みどり",
         "meaning": "green color, greenery",
@@ -715,6 +780,7 @@
         "difficulty": 1
     },
     {
+        "No": 166,
         "vocab": "腕",
         "sound": "うで",
         "meaning": "arm",
@@ -726,6 +792,7 @@
         "difficulty": 1
     },
     {
+        "No": 167,
         "vocab": "ドア",
         "sound": "ドア",
         "meaning": "door (loan word)",
@@ -737,6 +804,7 @@
         "difficulty": 1
     },
     {
+        "No": 168,
         "vocab": "女の子",
         "sound": "おんなのこ",
         "meaning": "little girl",
@@ -748,6 +816,7 @@
         "difficulty": 1
     },
     {
+        "No": 169,
         "vocab": "男の子",
         "sound": "おとこのこ",
         "meaning": "boy",
@@ -759,6 +828,7 @@
         "difficulty": 1
     },
     {
+        "No": 170,
         "vocab": "私たち",
         "sound": "わたしたち",
         "meaning": "we (colloquial)",
@@ -770,6 +840,7 @@
         "difficulty": 1
     },
     {
+        "No": 171,
         "vocab": "近く",
         "sound": "ちかく",
         "meaning": "near, close to",
@@ -781,6 +852,7 @@
         "difficulty": 1
     },
     {
+        "No": 172,
         "vocab": "やる",
         "sound": "やる",
         "meaning": "do, give",
@@ -792,6 +864,7 @@
         "difficulty": 1
     },
     {
+        "No": 173,
         "vocab": "かなり",
         "sound": "かなり",
         "meaning": "fairly, rather",
@@ -803,6 +876,7 @@
         "difficulty": 1
     },
     {
+        "No": 174,
         "vocab": "国",
         "sound": "くに",
         "meaning": "country",
@@ -814,6 +888,7 @@
         "difficulty": 1
     },
     {
+        "No": 175,
         "vocab": "起こる",
         "sound": "おこる",
         "meaning": "happen",
@@ -825,6 +900,7 @@
         "difficulty": 1
     },
     {
+        "No": 176,
         "vocab": "秋",
         "sound": "あき",
         "meaning": "autumn, fall",
@@ -836,6 +912,7 @@
         "difficulty": 1
     },
     {
+        "No": 177,
         "vocab": "送る",
         "sound": "おくる",
         "meaning": "send",
@@ -847,6 +924,7 @@
         "difficulty": 1
     },
     {
+        "No": 178,
         "vocab": "死ぬ",
         "sound": "しぬ",
         "meaning": "die",
@@ -858,6 +936,7 @@
         "difficulty": 1
     },
     {
+        "No": 179,
         "vocab": "気持ち",
         "sound": "きもち",
         "meaning": "feeling, sensation",
@@ -869,6 +948,7 @@
         "difficulty": 1
     },
     {
+        "No": 180,
         "vocab": "乗る",
         "sound": "のる",
         "meaning": "ride, take",
@@ -880,6 +960,7 @@
         "difficulty": 1
     },
     {
+        "No": 181,
         "vocab": "いる",
         "sound": "いる",
         "meaning": "be present, stay",
@@ -891,6 +972,7 @@
         "difficulty": 1
     },
     {
+        "No": 182,
         "vocab": "木",
         "sound": "き",
         "meaning": "tree, wood",
@@ -902,6 +984,7 @@
         "difficulty": 1
     },
     {
+        "No": 183,
         "vocab": "開ける",
         "sound": "あける",
         "meaning": "open, unlock (doors, windows, etc.)",
@@ -913,6 +996,7 @@
         "difficulty": 1
     },
     {
+        "No": 184,
         "vocab": "閉める",
         "sound": "しめる",
         "meaning": "shut, close (doors, windows, etc.)",
@@ -924,6 +1008,7 @@
         "difficulty": 1
     },
     {
+        "No": 185,
         "vocab": "続く",
         "sound": "つづく",
         "meaning": "continue, follow",
@@ -935,6 +1020,7 @@
         "difficulty": 1
     },
     {
+        "No": 186,
         "vocab": "お医者さん",
         "sound": "おいしゃさん",
         "meaning": "doctor (polite)",
@@ -946,6 +1032,7 @@
         "difficulty": 1
     },
     {
+        "No": 187,
         "vocab": "円",
         "sound": "えん",
         "meaning": "Japanese yen",
@@ -957,6 +1044,7 @@
         "difficulty": 1
     },
     {
+        "No": 188,
         "vocab": "ここ",
         "sound": "ここ",
         "meaning": "here",
@@ -968,6 +1056,7 @@
         "difficulty": 1
     },
     {
+        "No": 189,
         "vocab": "待つ",
         "sound": "まつ",
         "meaning": "wait, wait for",
@@ -979,6 +1068,7 @@
         "difficulty": 1
     },
     {
+        "No": 190,
         "vocab": "低い",
         "sound": "ひくい",
         "meaning": "low, short",
@@ -990,6 +1080,7 @@
         "difficulty": 1
     },
     {
+        "No": 191,
         "vocab": "もらう",
         "sound": "もらう",
         "meaning": "receive, get (something from someone)",
@@ -1001,6 +1092,7 @@
         "difficulty": 1
     },
     {
+        "No": 192,
         "vocab": "食べる",
         "sound": "たべる",
         "meaning": "eat",
@@ -1012,6 +1104,7 @@
         "difficulty": 1
     },
     {
+        "No": 193,
         "vocab": "兄",
         "sound": "あに",
         "meaning": "(one's own) older brother",
@@ -1023,6 +1116,7 @@
         "difficulty": 1
     },
     {
+        "No": 194,
         "vocab": "名前",
         "sound": "なまえ",
         "meaning": "name",
@@ -1034,6 +1128,7 @@
         "difficulty": 1
     },
     {
+        "No": 195,
         "vocab": "夫",
         "sound": "おっと",
         "meaning": "husband",
@@ -1045,6 +1140,7 @@
         "difficulty": 1
     },
     {
+        "No": 196,
         "vocab": "一",
         "sound": "いち",
         "meaning": "one",
@@ -1056,6 +1152,7 @@
         "difficulty": 1
     },
     {
+        "No": 197,
         "vocab": "結婚",
         "sound": "けっこん",
         "meaning": "marriage",
@@ -1067,6 +1164,7 @@
         "difficulty": 1
     },
     {
+        "No": 198,
         "vocab": "親",
         "sound": "おや",
         "meaning": "parent",
@@ -1078,6 +1176,7 @@
         "difficulty": 1
     },
     {
+        "No": 199,
         "vocab": "話す",
         "sound": "はなす",
         "meaning": "speak, talk",
@@ -1089,6 +1188,7 @@
         "difficulty": 1
     },
     {
+        "No": 200,
         "vocab": "少し",
         "sound": "すこし",
         "meaning": "a bit, a little while",

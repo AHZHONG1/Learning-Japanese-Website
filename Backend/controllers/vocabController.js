@@ -151,7 +151,7 @@ getVocabs = async (req, res) => {
 }
 
 getVocabsByDifficulty = async (req, res) => {
-    await Vocab.find({ difficulty: req.params.diff }).then((vocabs) => {
+    await Vocab.find({ difficulty: req.params.diff }).sort({No: 1}).then((vocabs) => {
         if (!vocabs.length) {
             return res
                 .status(404)
