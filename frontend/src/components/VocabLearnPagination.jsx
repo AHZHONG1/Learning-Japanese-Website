@@ -1,4 +1,6 @@
 
+import { useEffect } from "react";
+
 
 function VocabLearnPagination(props) {
 
@@ -30,13 +32,18 @@ function VocabLearnPagination(props) {
             })
             .catch(e => {
                 /*發生錯誤時要做的事情*/
+                console.log(e)
+                props.func(null);
             })
     }
 
+    useEffect(() => {
+        document.getElementById("diff1").click()
+    }, [])
 
     return (
         <nav aria-label="Page navigation example">
-            <ul className="pagination">
+            <ul className={"pagination ".concat(props.class1)} >
                 <p className="page-link">Difficulty:</p>
                 <li className="page-item"><button id="diff1" className="page-link" onClick={() => handleButtonClick("http://localhost:5000/api/vocab/difficulty/1", "diff1")}>1</button></li>
                 <li className="page-item"><button id="diff2" className="page-link" onClick={() => handleButtonClick("http://localhost:5000/api/vocab/difficulty/2", "diff2")}>2</button></li>

@@ -15,26 +15,17 @@ function VocabResult({ data }) {
             <td>{data.vocab}</td>
             <td>{data.sound}</td>
             <td>{data.meaning}</td>
+            <td>{data.meaningAns}</td>
             <td>{data.POS}</td>
             <td>
                 <ol>
                     {exampletexts && exampletexts.map((value, index) => (
-                        <li>
+                        <li key={index}>
                             <div>{exampletexts[index]}</div>
                             <div>{exampleTranslates[index]}</div>
                             <div>{exampleMeanings[index]}</div>
                         </li>
                     ))}
-                    {/* <li>
-                        <div>{exampletexts[0]}</div>
-                        <div>{exampleTranslates[0]}</div>
-                        <div>{exampleMeanings[0]}</div>
-                    </li>
-                    <li>
-                        <div>{exampletexts[1]}</div>
-                        <div>{exampleTranslates[1]}</div>
-                        <div>{exampleMeanings[1]}</div>
-                    </li> */}
                 </ol>
             </td>
             <td>{data.difficulty}</td>
