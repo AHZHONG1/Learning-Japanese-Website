@@ -4,5 +4,9 @@ import DevNavBar from './DevNavBar'
 import VocabLearnPagination from './VocabLearnPagination'
 import VocabResult from './VocabResult'
 import PagePagination from './PagePagination'
+import DevVocabViewResult from './DevVocabViewResult'
+import VocabViewModal from './VocabViewModal'
+import VocabEditModal from './VocabEditModal'
+import DevVocabEditResult from './DevVocabEditResult'
 
-export { NavBar, VocabNavBar, DevNavBar, VocabLearnPagination, VocabResult, PagePagination }
+export { NavBar, VocabNavBar, DevNavBar, VocabLearnPagination, VocabResult, PagePagination, DevVocabViewResult, VocabViewModal, VocabEditModal, DevVocabEditResult }
