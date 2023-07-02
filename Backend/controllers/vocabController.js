@@ -80,10 +80,15 @@ updateVocab = async (req, res) => {
     }
 
     await Vocab.findOne({ _id: req.params.id }).then((vocab) => {
+        vocab.No = body.No
         vocab.vocab = body.vocab;
         vocab.sound = body.sound;
         vocab.meaning = body.meaning;
+        vocab.meaningAns = body.meaningAns;
         vocab.POS = body.POS;
+        vocab.exampleText = body.exampleText;
+        vocab.exampleTranslate = body.exampleTranslate;
+        vocab.exampleMeaning = body.exampleMeaning;
         vocab.difficulty = body.difficulty;
         vocab
             .save()

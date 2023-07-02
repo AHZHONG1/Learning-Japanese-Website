@@ -19,27 +19,27 @@ function DevVocabEditResult({ data }) {
                 <tr>
                     <th>Vocab</th>
                     <td>{data.vocab}</td>
-                    <td><input typeof='text'></input></td>
+                    <td><input defaultValue={data.vocab} id='vocabInput' typeof='text'></input></td>
                 </tr>
                 <tr>
                     <th>Sound</th>
                     <td>{data.sound}</td>
-                    <td><input typeof='text'></input></td>
+                    <td><input defaultValue={data.sound} id='soundInput' typeof='text'></input></td>
                 </tr>
                 <tr>
                     <th>Meaning</th>
                     <td>{data.meaning}</td>
-                    <td><input typeof='text'></input></td>
+                    <td><input defaultValue={data.meaning} id='meaningInput' typeof='text'></input></td>
                 </tr>
                 <tr>
                     <th>MeaningQuiz</th>
                     <td>{data.meaningAns}</td>
-                    <td><input typeof='text'></input></td>
+                    <td><input defaultValue={data.meaningAns} id='meaningAnsInput' typeof='text'></input></td>
                 </tr>
                 <tr>
                     <th>Part of Speech</th>
                     <td>{data.POS}</td>
-                    <td><input typeof='text'></input></td>
+                    <td><input defaultValue={data.POS} id='POSInput' typeof='text'></input></td>
                 </tr>
                 <tr>
                     <th>Example Text</th>
@@ -52,7 +52,7 @@ function DevVocabEditResult({ data }) {
                             ))}
                         </ol>
                     </td>
-                    <td><input typeof='text'></input></td>
+                    <td><input defaultValue={data.exampleText} id='exampleTextsInput' typeof='text'></input></td>
                 </tr>
                 <tr>
                     <th>Example Translate</th>
@@ -65,7 +65,7 @@ function DevVocabEditResult({ data }) {
                             ))}
                         </ol>
                     </td>
-                    <td><input typeof='text'></input></td>
+                    <td><input defaultValue={data.exampleTranslate} id='exampleTranslatesInput' typeof='text'></input></td>
                 </tr>
                 <tr>
                     <th>Example Meaning</th>
@@ -78,12 +78,12 @@ function DevVocabEditResult({ data }) {
                             ))}
                         </ol>
                     </td>
-                    <td><input typeof='text'></input></td>
+                    <td><input defaultValue={data.exampleMeaning} id='exampleMeaningsInput' typeof='text'></input></td>
                 </tr>
                 <tr>
                     <th>Difficulty</th>
                     <td>{data.difficulty}</td>
-                    <td><input typeof='text'></input></td>
+                    <td><input defaultValue={data.difficulty} id='difficultyInput' typeof='text'></input></td>
                 </tr>
             </tbody>
         </Table>
