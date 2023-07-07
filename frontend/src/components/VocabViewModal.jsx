@@ -14,10 +14,10 @@ function VocabViewModal({ show, handleClose, viewData, previous, next }) {
             <Modal.Header closeButton style={{ paddingTop: "8px", paddingBottom: "8px" }}>
                 <Modal.Title>Vocab Information</Modal.Title>
             </Modal.Header>
-            <Modal.Body>
+            <Modal.Body style={{ paddingTop: "8px", paddingBottom: "8px" }}>
                 {viewData && <DevVocabViewResult data={viewData} />}
             </Modal.Body>
-            <Modal.Footer>
+            <Modal.Footer style={{ paddingTop: "8px", paddingBottom: "8px" }}>
                 <button id="prevBtn1" onClick={previous}>Previous</button>
                 <button id="nextBtn1" onClick={next}>Next</button>
             </Modal.Footer>

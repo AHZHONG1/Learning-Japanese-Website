@@ -22,7 +22,7 @@ function VocabLearn() {
                         <VocabLearnPagination func={setData} />
                     </div>
                     <div className="col-6">
-                        <PagePagination data={data} func={setDataShow} />
+                        <PagePagination data={data} func={setDataShow} number={100} />
                     </div>
                 </div>
                 <p className="text-end">Total: {1000} data found</p>

@@ -1,12 +1,12 @@
-import { VocabNavBar, VocabLearnPagination } from "../components";
+import { VocabNavBar, VocabLearnPagination, PagePagination } from "../components";
 import { useState, useEffect } from "react";
 import Table from 'react-bootstrap/Table';
-import { Link } from 'react-router-dom';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
 function VocabQuiz() {
 
     const [data, setData] = useState(null);
+    const [dataUsed, setDataUsed] = useState(null)
     const [arr, setArr] = useState([]);
     const [correctNo, setCorrectNo] = useState(0);
     const [totalNo, setTotalNo] = useState(0);
@@ -30,7 +30,7 @@ function VocabQuiz() {
     // useEffect(() => { }, [data]);
 
     function submitValidation() {
-        if (!data) {
+        if (!dataUsed) {
             return false;
         }
 
@@ -51,7 +51,9 @@ function VocabQuiz() {
             setBMeaning(false);
         }
 
-        data && data.data.map((value, index) => (
+        console.log(dataUsed)
+
+        dataUsed && dataUsed.map((value, index) => (
             arr.push(value)
         ))
 
@@ -66,7 +68,7 @@ function VocabQuiz() {
         console.log(arr)
         if (bVocab) {
             if (document.getElementById("textVocab").value !== arr[0].vocab) {
-                alert(`The answer is ${arr[0].vocab} || ${arr[0].sound} || ${arr[0].meaning}`)
+                alert(`The answer is ${arr[0].vocab} || ${arr[0].sound} || ${arr[0].meaningAns}`)
                 arr.push(arr[0])
                 arr.push(arr[0])
                 setTotalNo(totalNo + 1)
@@ -74,18 +76,18 @@ function VocabQuiz() {
                 setCorrectNo(correctNo + 1)
             }
             document.getElementById("textVocab").value = ""
-            arr.shift()
-            if (arr.length === 0) {
+            if (arr.length === 1) {
                 document.getElementById("return").click();
                 return;
             }
+            arr.shift()
             shuffle()
             setArr(current => [...current])
             return;
         }
         if (bSound) {
             if (document.getElementById("textSound").value !== arr[0].sound) {
-                alert(`The answer is ${arr[0].vocab} || ${arr[0].sound} || ${arr[0].meaning}`)
+                alert(`The answer is ${arr[0].vocab} || ${arr[0].sound} || ${arr[0].meaningAns}`)
                 arr.push(arr[0])
                 arr.push(arr[0])
                 setTotalNo(totalNo + 1)
@@ -93,27 +95,28 @@ function VocabQuiz() {
                 setCorrectNo(correctNo + 1)
             }
             document.getElementById("textSound").value = ""
-            arr.shift()
-            if (arr.length === 0) {
+            if (arr.length === 1) {
                 document.getElementById("return").click();
                 return;
             }
+            arr.shift()
             shuffle()
             setArr(current => [...current])
             return;
         }
         if (bMeaning) {
-            const strs = arr[0].meaning.split(', ')
+            const strs = arr[0].meaningAns.split(', ')
             for (var i = 0; i < strs.length; ++i) {
                 console.log(strs[i])
                 if (document.getElementById("textMeaning").value === strs[i]) {
                     document.getElementById("textMeaning").value = ""
                     setCorrectNo(correctNo + 1)
-                    arr.shift()
-                    if (arr.length === 0) {
+                    console.log(arr.length)
+                    if (arr.length === 1) {
                         document.getElementById("return").click();
                         return;
                     }
+                    arr.shift()
                     shuffle()
                     setArr(current => [...current])
                     return;
@@ -121,7 +124,7 @@ function VocabQuiz() {
             }
             document.getElementById("textMeaning").value = ""
             setTotalNo(totalNo + 1)
-            alert(`The answer is ${arr[0].vocab} || ${arr[0].sound} || ${arr[0].meaning}`)
+            alert(`The answer is ${arr[0].vocab} || ${arr[0].sound} || ${arr[0].meaningAns}`)
             arr.push(arr[0])
             arr.push(arr[0])
             arr.shift()
@@ -174,7 +177,14 @@ function VocabQuiz() {
                 <h1>Vocab Quiz page</h1>
                 {!bStart &&
                     <div>
-                        <VocabLearnPagination func={setData} />
+                        <div className="row">
+                            <div className="col-6">
+                                <VocabLearnPagination func={setData} />
+                            </div>
+                            <div className="col-6">
+                                <PagePagination data={data} func={setDataUsed} number={10} />
+                            </div>
+                        </div>
 
                         <form onSubmit={submitValidation}>
                             <fieldset>
@@ -215,6 +225,7 @@ function VocabQuiz() {
                                     <th>Vocab</th>
                                     <th>Sound</th>
                                     <th>Meaning</th>
+                                    <th>Part of Speech</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -222,17 +233,20 @@ function VocabQuiz() {
                                     {bVocab && <td><input id="textVocab" type="text" /></td>}
                                     {bVocab && <td></td>}
                                     {bVocab && <td>{arr[0].meaning}</td>}
+                                    {bVocab && <td>{arr[0].POS}</td>}
                                     {bSound && <td>{arr[0].vocab}</td>}
                                     {bSound && <td><input id="textSound" type="text" /></td>}
                                     {bSound && <td></td>}
+                                    {bSound && <td>{arr[0].POS}</td>}
                                     {bMeaning && <td>{arr[0].vocab}</td>}
                                     {bMeaning && <td></td>}
-                                    {bMeaning && <td><td><input id="textMeaning" type="text" /></td></td>}
+                                    {bMeaning && <td><input id="textMeaning" type="text" /></td>}
+                                    {bMeaning && <td>{arr[0].POS}</td>}
                                 </tr>
                             </tbody>
                         </Table>
                         <button id="submit" className="btn btn-primary" onClick={checkAnswer}>Submit</button>
-                        <Link to={"/vocab"}><button id="return" className="btn btn-primary">Return</button></Link>
+                        <button id="return" className="btn btn-primary" onClick={() => { window.location.reload(false); }}>Return</button>
 
                     </div>
                 }

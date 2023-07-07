@@ -2,14 +2,14 @@ import { useState, useEffect } from "react";
 
 
 
-function PagePagination({ data, func }) {
+function PagePagination({ data, func, number }) {
 
     const [currentPage, setCurrent] = useState(1)
 
     let totalPage = 1
 
     if (data) {
-        totalPage = data.data.length / 100
+        totalPage = data.data.length / number
     }
 
     function handleButtonClick(id) {
@@ -52,7 +52,7 @@ function PagePagination({ data, func }) {
         console.log(currentPage)
         var datas = []
         if (data) {
-            for (var i = (parseInt(currentPage) - 1) * 100; i < Math.min((parseInt(currentPage)) * 100, data.data.length); ++i) {
+            for (var i = (parseInt(currentPage) - 1) * number; i < Math.min((parseInt(currentPage)) * number, data.data.length); ++i) {
                 datas.push(data.data[i])
             }
             func(datas)

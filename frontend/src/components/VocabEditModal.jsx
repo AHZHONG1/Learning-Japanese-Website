@@ -2,7 +2,7 @@ import Modal from 'react-bootstrap/Modal';
 import { DevVocabEditResult } from "../components"
 import { useState } from 'react';
 
-function VocabEditModal({ show, handleClose, viewData }) {
+function VocabEditModal({ show, handleClose, viewData, setShow }) {
 
     const [showSubmit, setShowSubmit] = useState(false)
 
@@ -10,7 +10,21 @@ function VocabEditModal({ show, handleClose, viewData }) {
 
     const CloseSubmit = () => setShowSubmit(false)
 
-    async function save() {
+    function save() {
+        setShowSubmit(true)
+        setShow(false)
+        confirm()
+    }
+
+    function returnFunction() {
+        setShowSubmit(false)
+        setShow(true)
+    }
+
+    async function confirm() {
+        setShowSubmit(false)
+        setShow(true)
+
         const vocab = document.getElementById("vocabInput").value
         const sound = document.getElementById("soundInput").value
         const meaning = document.getElementById("meaningInput").value
@@ -32,11 +46,6 @@ function VocabEditModal({ show, handleClose, viewData }) {
         obj.exampleMeaning = exampleMeanings;
         obj.difficulty = difficulty;
 
-        setShowSubmit(true)
-        // setShow(false)
-
-        return
-
         const requestOptions = {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
@@ -51,6 +60,8 @@ function VocabEditModal({ show, handleClose, viewData }) {
             .catch(e => {
                 /*發生錯誤時要做的事情*/
             })
+
+        window.location.reload(false);
     }
 
     return (
@@ -65,10 +76,10 @@ function VocabEditModal({ show, handleClose, viewData }) {
                 <Modal.Header closeButton style={{ paddingTop: "8px", paddingBottom: "8px" }}>
                     <Modal.Title>Vocab Information</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>
+                <Modal.Body style={{ paddingTop: "8px", paddingBottom: "8px" }}>
                     {viewData && <DevVocabEditResult data={viewData} />}
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer style={{ paddingTop: "8px", paddingBottom: "8px" }}>
                     <button id="saveBtn" onClick={() => { save() }}>Save</button>
                 </Modal.Footer>
             </Modal>
@@ -85,12 +96,12 @@ function VocabEditModal({ show, handleClose, viewData }) {
                 <Modal.Body>
                     Hi
                     {obj && <div>
-                        
+
                     </div>}
                 </Modal.Body>
                 <Modal.Footer>
-                    <button id="returnBtn" onClick={() => { save() }}>Return</button>
-                    <button id="confirmBtn" onClick={() => { save() }}>Confirm</button>
+                    <button id="returnBtn" onClick={() => { returnFunction() }}>Return</button>
+                    <button id="confirmBtn" onClick={() => { confirm() }}>Confirm</button>
                 </Modal.Footer>
 
             </Modal>

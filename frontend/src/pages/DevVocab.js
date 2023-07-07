@@ -81,7 +81,7 @@ function DevVocab() {
                         <VocabLearnPagination func={setData} />
                     </div>
                     <div className="col-6">
-                        <PagePagination data={data} func={setDataShow} />
+                        <PagePagination data={data} func={setDataShow} number={100} />
                     </div>
                 </div>
                 <Table striped bordered hover>
@@ -109,7 +109,7 @@ function DevVocab() {
                     </tbody>
                 </Table>
                 <VocabViewModal show={showView} handleClose={handleCloseView} viewData={viewData} previous={previous} next={next} />
-                <VocabEditModal show={showEdit} handleClose={handleCloseEdit} viewData={viewData} />
+                <VocabEditModal show={showEdit} setShow={setShowEdit} handleClose={handleCloseEdit} viewData={viewData} />
             </div>
         </div>
     );
