@@ -182,7 +182,7 @@ function VocabQuiz() {
                                 <VocabLearnPagination func={setData} />
                             </div>
                             <div className="col-6">
-                                <PagePagination data={data} func={setDataUsed} number={10} />
+                                <PagePagination data={data} func={setDataUsed} number={100} />
                             </div>
                         </div>
 
