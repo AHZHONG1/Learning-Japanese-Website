@@ -11,7 +11,7 @@ function DevAdd() {
                 body: JSON.stringify(json)
             };
             console.log(JSON.stringify(json))
-            await fetch('https://japanese-learning-backend.onrender.com/api/vocabs', requestOptions)
+            await fetch(process.env.REACT_APP_hosting_URL + '/api/vocabs', requestOptions)
             .then(res => res.json())
             .then(data => {
                 // console.log(data)
