@@ -45,12 +45,12 @@ function VocabLearnPagination(props) {
         <nav aria-label="Page navigation example">
             <ul className={"pagination ".concat(props.class1)} >
                 <p className="page-link">Difficulty:</p>
-                <li className="page-item"><button id="diff1" className="page-link" onClick={() => handleButtonClick("https://japanese-learning-backend.onrender.com:5000/api/vocab/difficulty/1", "diff1")}>1</button></li>
-                <li className="page-item"><button id="diff2" className="page-link" onClick={() => handleButtonClick("https://japanese-learning-backend.onrender.com:5000/api/vocab/difficulty/2", "diff2")}>2</button></li>
-                <li className="page-item"><button id="diff3" className="page-link" onClick={() => handleButtonClick("https://japanese-learning-backend.onrender.com:5000/api/vocab/difficulty/3", "diff3")}>3</button></li>
-                <li className="page-item"><button id="diff4" className="page-link" onClick={() => handleButtonClick("https://japanese-learning-backend.onrender.com:5000/api/vocab/difficulty/4", "diff4")}>4</button></li>
-                <li className="page-item"><button id="diff5" className="page-link" onClick={() => handleButtonClick("https://japanese-learning-backend.onrender.com:5000/api/vocab/difficulty/5", "diff5")}>5</button></li>
-                <li className="page-item"><button id="diff6" className="page-link" onClick={() => handleButtonClick("https://japanese-learning-backend.onrender.com:5000/api/vocab/difficulty/6", "diff6")}>6</button></li>
+                <li className="page-item"><button id="diff1" className="page-link" onClick={() => handleButtonClick("https://japanese-learning-backend.onrender.com/api/vocab/difficulty/1", "diff1")}>1</button></li>
+                <li className="page-item"><button id="diff2" className="page-link" onClick={() => handleButtonClick("https://japanese-learning-backend.onrender.com/api/vocab/difficulty/2", "diff2")}>2</button></li>
+                <li className="page-item"><button id="diff3" className="page-link" onClick={() => handleButtonClick("https://japanese-learning-backend.onrender.com/api/vocab/difficulty/3", "diff3")}>3</button></li>
+                <li className="page-item"><button id="diff4" className="page-link" onClick={() => handleButtonClick("https://japanese-learning-backend.onrender.com/api/vocab/difficulty/4", "diff4")}>4</button></li>
+                <li className="page-item"><button id="diff5" className="page-link" onClick={() => handleButtonClick("https://japanese-learning-backend.onrender.com/api/vocab/difficulty/5", "diff5")}>5</button></li>
+                <li className="page-item"><button id="diff6" className="page-link" onClick={() => handleButtonClick("https://japanese-learning-backend.onrender.com/api/vocab/difficulty/6", "diff6")}>6</button></li>
             </ul>
         </nav>
     );

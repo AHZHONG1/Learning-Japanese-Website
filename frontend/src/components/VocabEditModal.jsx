@@ -52,7 +52,7 @@ function VocabEditModal({ show, handleClose, viewData, setShow }) {
             body: JSON.stringify(obj)
         };
         // console.log(JSON.stringify(json))
-        await fetch('https://japanese-learning-backend.onrender.com:5000/api/vocab/' + viewData._id, requestOptions)
+        await fetch('https://japanese-learning-backend.onrender.com/api/vocab/' + viewData._id, requestOptions)
             .then(res => res.json())
             .then(message => {
                 console.log(message)
