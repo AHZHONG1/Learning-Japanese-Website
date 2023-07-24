@@ -11,7 +11,7 @@ function DevAdd() {
                 body: JSON.stringify(json)
             };
             console.log(JSON.stringify(json))
-            await fetch('http://localhost:5000/api/vocabs', requestOptions)
+            await fetch('https://japanese-learning-backend.onrender.com:5000/api/vocabs', requestOptions)
             .then(res => res.json())
             .then(data => {
                 // console.log(data)
