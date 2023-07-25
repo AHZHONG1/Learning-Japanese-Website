@@ -49,7 +49,7 @@ function PagePagination({ data, func, number }) {
             document.getElementById(`page2`).style.backgroundColor = "green"
             document.getElementById(`page2`).disabled = true
         }
-        console.log(currentPage)
+        //console.log(currentPage)
         var datas = []
         if (data) {
             for (var i = (parseInt(currentPage) - 1) * number; i < Math.min((parseInt(currentPage)) * number, data.data.length); ++i) {
@@ -57,7 +57,7 @@ function PagePagination({ data, func, number }) {
             }
             func(datas)
         }
-        console.log(datas)
+        //console.log(datas)
     }, [data, currentPage])
 
     return (

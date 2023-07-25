@@ -5,7 +5,8 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 
 function VocabQuiz() {
 
-    const [data, setData] = useState(null);
+    const [data, setData] = useState([null, null, null, null, null, null]);
+    const [data1, setData1] = useState(null);
     const [dataUsed, setDataUsed] = useState(null)
     const [arr, setArr] = useState([]);
     const [correctNo, setCorrectNo] = useState(0);
@@ -134,6 +135,37 @@ function VocabQuiz() {
         }
     }
 
+    function fetchData(url, index) {
+        fetch(url, { method: "GET" }) /*設定使用GET*/
+            .then(res => res.json())
+            .then(data => {
+                /*接到request data後要做的事情*/
+                if (data.success === true) {
+                    setData((prevData) => {
+                        prevData[index] = data;
+                        return prevData;
+                    })
+                } else {
+                    setData([null, null, null, null, null, null]);
+                }
+            })
+            .catch(e => {
+                /*發生錯誤時要做的事情*/
+                console.log(e)
+                setData([null, null, null, null, null, null]);
+            })
+    }
+
+    useEffect(() => {
+        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/1", 0);
+        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/2", 1);
+        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/3", 2);
+        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/4", 3);
+        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/5", 4);
+        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/6", 5);
+        //console.log(data);
+    }, []);
+
     useEffect(() => {
         console.log("Rerender")
         if (bVocab && document.getElementById("textVocab")) {
@@ -179,10 +211,10 @@ function VocabQuiz() {
                     <div>
                         <div className="row">
                             <div className="col-6">
-                                <VocabLearnPagination func={setData} />
+                                <VocabLearnPagination data={data} func={setData1} />
                             </div>
                             <div className="col-6">
-                                <PagePagination data={data} func={setDataUsed} number={100} />
+                                <PagePagination data={data1} func={setDataUsed} number={100} />
                             </div>
                         </div>
 

@@ -4,7 +4,9 @@ import Table from 'react-bootstrap/Table';
 
 function DevVocab() {
 
-    const [data, setData] = useState(null);
+    const [data, setData] = useState([null, null, null, null, null, null]);
+
+    const [data1, setData1] = useState(null);
 
     const [dataShow, setDataShow] = useState(null)
 
@@ -53,9 +55,36 @@ function DevVocab() {
         }
     }
 
-    // useEffect(() => {
+    function fetchData(url, index) {
+        fetch(url, { method: "GET" }) /*設定使用GET*/
+            .then(res => res.json())
+            .then(data => {
+                /*接到request data後要做的事情*/
+                if (data.success === true) {
+                    setData((prevData) => {
+                        prevData[index] = data;
+                        return prevData;
+                    })
+                } else {
+                    setData([null, null, null, null, null, null]);
+                }
+            })
+            .catch(e => {
+                /*發生錯誤時要做的事情*/
+                console.log(e)
+                setData([null, null, null, null, null, null]);
+            })
+    }
 
-    // }, [showEdit])
+    useEffect(() => {
+        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/1", 0);
+        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/2", 1);
+        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/3", 2);
+        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/4", 3);
+        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/5", 4);
+        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/6", 5);
+        //console.log(data);
+    }, []);
 
     useEffect(() => {
         if (viewData && document.getElementById("prevBtn1") && document.getElementById("nextBtn1")) {
@@ -78,10 +107,10 @@ function DevVocab() {
                 <h1>Dev Vocab View page</h1>
                 <div className="row">
                     <div className="col-6">
-                        <VocabLearnPagination func={setData} />
+                        <VocabLearnPagination data={data} func={setData1} />
                     </div>
                     <div className="col-6">
-                        <PagePagination data={data} func={setDataShow} number={100} />
+                        <PagePagination data={data1} func={setDataShow} number={100} />
                     </div>
                 </div>
                 <Table striped bordered hover>
