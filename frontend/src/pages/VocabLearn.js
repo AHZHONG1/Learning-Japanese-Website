@@ -20,9 +20,11 @@ function VocabLearn() {
                         prevData[index] = data;
                         return prevData;
                     })
+                    document.getElementById("diff1").click();
                 } else {
                     setData([null, null, null, null, null, null]);
                 }
+                return;
             })
             .catch(e => {
                 /*發生錯誤時要做的事情*/
