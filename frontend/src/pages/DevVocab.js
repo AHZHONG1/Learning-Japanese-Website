@@ -1,6 +1,7 @@
-import { DevNavBar, VocabLearnPagination, PagePagination, VocabViewModal, VocabEditModal } from "../components";
+import { DevNavBar, VocabLearnPagination, PagePagination, VocabViewModal, VocabEditModal, Loading } from "../components";
 import { useState, useEffect } from "react";
 import Table from 'react-bootstrap/Table';
+import useFetchVocab from "../api/useFetchVocab";
 
 function DevVocab() {
 
@@ -9,6 +10,8 @@ function DevVocab() {
     const [data1, setData1] = useState(null);
 
     const [dataShow, setDataShow] = useState(null)
+
+    const [loading, setLoading] = useState(true)
 
     const [action, setAction] = useState("View")
 
@@ -55,36 +58,7 @@ function DevVocab() {
         }
     }
 
-    function fetchData(url, index) {
-        fetch(url, { method: "GET" }) /*設定使用GET*/
-            .then(res => res.json())
-            .then(data => {
-                /*接到request data後要做的事情*/
-                if (data.success === true) {
-                    setData((prevData) => {
-                        prevData[index] = data;
-                        return prevData;
-                    })
-                } else {
-                    setData([null, null, null, null, null, null]);
-                }
-            })
-            .catch(e => {
-                /*發生錯誤時要做的事情*/
-                console.log(e)
-                setData([null, null, null, null, null, null]);
-            })
-    }
-
-    useEffect(() => {
-        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/1", 0);
-        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/2", 1);
-        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/3", 2);
-        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/4", 3);
-        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/5", 4);
-        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/6", 5);
-        //console.log(data);
-    }, []);
+    useFetchVocab(data, setData, setLoading)
 
     useEffect(() => {
         if (viewData && document.getElementById("prevBtn1") && document.getElementById("nextBtn1")) {
@@ -102,6 +76,7 @@ function DevVocab() {
 
     return (
         <div>
+            {loading && <Loading/>}
             <DevNavBar func={setAction} />
             <div className="Page">
                 <h1>Dev Vocab View page</h1>

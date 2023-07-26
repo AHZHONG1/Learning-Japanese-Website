@@ -1,7 +1,8 @@
-import { VocabNavBar, VocabLearnPagination, PagePagination } from "../components";
+import { VocabNavBar, VocabLearnPagination, PagePagination, Loading } from "../components";
 import { useState, useEffect } from "react";
 import Table from 'react-bootstrap/Table';
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import useFetchVocab from "../api/useFetchVocab";
 
 function VocabQuiz() {
 
@@ -11,6 +12,8 @@ function VocabQuiz() {
     const [arr, setArr] = useState([]);
     const [correctNo, setCorrectNo] = useState(0);
     const [totalNo, setTotalNo] = useState(0);
+
+    const [loading, setLoading] = useState(true)
 
 
     const [bStart, setBStart] = useState(false);
@@ -135,36 +138,7 @@ function VocabQuiz() {
         }
     }
 
-    function fetchData(url, index) {
-        fetch(url, { method: "GET" }) /*設定使用GET*/
-            .then(res => res.json())
-            .then(data => {
-                /*接到request data後要做的事情*/
-                if (data.success === true) {
-                    setData((prevData) => {
-                        prevData[index] = data;
-                        return prevData;
-                    })
-                } else {
-                    setData([null, null, null, null, null, null]);
-                }
-            })
-            .catch(e => {
-                /*發生錯誤時要做的事情*/
-                console.log(e)
-                setData([null, null, null, null, null, null]);
-            })
-    }
-
-    useEffect(() => {
-        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/1", 0);
-        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/2", 1);
-        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/3", 2);
-        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/4", 3);
-        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/5", 4);
-        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/6", 5);
-        //console.log(data);
-    }, []);
+    useFetchVocab(data, setData, setLoading)
 
     useEffect(() => {
         console.log("Rerender")
@@ -203,6 +177,7 @@ function VocabQuiz() {
 
     return (
         <div>
+            {loading && <Loading />}
             <VocabNavBar />
             <div className="Page">
 
