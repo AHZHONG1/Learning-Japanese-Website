@@ -10,8 +10,10 @@ function VocabLearn() {
 
     const [dataShow2, setDataShow2] = useState(null)
 
-    function fetchData(url, index) {
-        fetch(url, { method: "GET" }) /*設定使用GET*/
+    const [loading, setLoading] = useState(true)
+
+    async function fetchData(url, index) {
+        await fetch(url, { method: "GET" }) /*設定使用GET*/
             .then(res => res.json())
             .then(data => {
                 /*接到request data後要做的事情*/
@@ -20,10 +22,10 @@ function VocabLearn() {
                         prevData[index] = data;
                         return prevData;
                     })
-                    document.getElementById("diff1").click();
                 } else {
                     setData([null, null, null, null, null, null]);
                 }
+                console.log(index + ": " + console.time)
                 return;
             })
             .catch(e => {
@@ -34,21 +36,51 @@ function VocabLearn() {
     }
 
     useEffect(() => {
-        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/1", 0);
-        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/2", 1);
-        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/3", 2);
-        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/4", 3);
-        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/5", 4);
-        fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/6", 5);
+        async function a() {
+            await Promise.all([fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/1", 0),
+            fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/2", 1),
+            fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/3", 2),
+            fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/4", 3),
+            fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/5", 4),
+            fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/6", 5)])
+            // await fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/1", 0);
+            // await fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/2", 1);
+            // await fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/3", 2);
+            // await fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/4", 3);
+            // await fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/5", 4);
+            // await fetchData(process.env.REACT_APP_hosting_URL + "/api/vocab/difficulty/6", 5);
+            console.log("Finishing")
+            setLoading(false)
+            document.getElementById("diff1").click();
+        }
+        a()
         //console.log(data);
     }, []);
 
     useEffect(() => {
-        console.log(dataShow2)
-    }, [data, dataShow1, dataShow2]);
+        console.log("Click")
+
+    }, [data, dataShow1, dataShow2, loading]);
 
     return (
         <div>
+            {!loading && <div className="modal" tabIndex="-1" role="dialog">
+                <div className="modal-dialog" role="document">
+                    <div className="modal-content">
+                        <div className="modal-header">
+
+                        </div>
+                        <div className="modal-body">
+                            <div className="spinner-border" role="status">
+                                <span className="sr-only">Loading...</span>
+                            </div>
+                        </div>
+                        <div className="modal-footer">
+
+                        </div>
+                    </div>
+                </div>
+            </div>}
             <VocabNavBar />
             <div className="Page">
                 <h1>Vocab Learn page</h1>
