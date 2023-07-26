@@ -1,6 +1,7 @@
 import { VocabNavBar, VocabLearnPagination, VocabResult, PagePagination } from "../components";
 import { useState, useEffect } from "react";
 import Table from 'react-bootstrap/Table';
+import Modal from 'react-bootstrap/Modal';
 
 function VocabLearn() {
 
@@ -64,23 +65,18 @@ function VocabLearn() {
 
     return (
         <div>
-            {!loading && <div className="modal" tabIndex="-1" role="dialog">
-                <div className="modal-dialog" role="document">
-                    <div className="modal-content">
-                        <div className="modal-header">
-
-                        </div>
-                        <div className="modal-body">
-                            <div className="spinner-border" role="status">
-                                <span className="sr-only">Loading...</span>
-                            </div>
-                        </div>
-                        <div className="modal-footer">
-
-                        </div>
-                    </div>
-                </div>
-            </div>}
+            {loading &&
+                <Modal
+                    show={true}
+                    backdrop="static"
+                    keyboard={false}
+                    size="xs"
+                >
+                    <Modal.Body style={{ paddingTop: "8px", paddingBottom: "8px" }}>
+                        Loading
+                    </Modal.Body>
+                </Modal>
+            }
             <VocabNavBar />
             <div className="Page">
                 <h1>Vocab Learn page</h1>
